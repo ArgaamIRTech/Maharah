@@ -24,7 +24,7 @@ const Subsidiaries = () => {
 
   return (
     <div className="subsidiaries">
-      <div className="h2">Subsidiaries And Associates</div>
+      <div className="h2">{t("strategicReports.subsidiaries_first_title")}</div>
 
       {/* Start Tabs */}
       <div
