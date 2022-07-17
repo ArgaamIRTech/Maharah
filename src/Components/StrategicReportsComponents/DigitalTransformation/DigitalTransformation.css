@@ -1,0 +1,17 @@
+.digital-transformation .h2 {
+  color: #415259;
+  margin: 50px 0;
+}
+.digital-transformation p {
+  color: #415259;
+}
+.digital-transformation .def-p p {
+  color: #415259;
+  font-weight: 600;
+  font-size: 18px;
+}
+.digital-transformation li::marker {
+  color: #c9c3ad;
+  font-weight: bold;
+  font-size: 25px;
+}

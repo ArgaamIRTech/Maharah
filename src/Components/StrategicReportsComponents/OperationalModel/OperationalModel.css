@@ -1,0 +1,59 @@
+.operational-model {
+  background: url(../../../Assets/report/bg.png);
+  background-size: cover;
+  background-position: bottom;
+  padding: 100px 0;
+}
+.operational-model h2 {
+  color: #415259;
+}
+.operational-model .nav-pills .nav-link {
+  text-align: start;
+  margin: 3px;
+  background: #fafafa;
+  color: #9a9a9a;
+  font-size: 20px;
+}
+.nav-pills .nav-link.active {
+  background: #fff !important;
+  color: #a98445 !important;
+  box-shadow: 0 0px 2px 0 #acacac;
+  font-weight: 500;
+}
+.operational-model img {
+  width: 45px;
+  margin: 0 15px;
+}
+.operational-model p {
+  margin: 0;
+}
+.operational-model i {
+  font-size: 14px;
+  color: #c9c3ad;
+}
+.operational-model .tab-content {
+  font-size: 21px;
+  line-height: 2;
+  color: #415259;
+}
+@media (min-width: 375px) and (max-width: 773px) {
+  .operational-model .ch-dis {
+    display: block !important;
+  }
+  .operational-model .nav-pills .nav-link {
+    font-size: 14px;
+  }
+  .operational-model p {
+    font-size: 14px;
+  }
+  .operational-model .nav-pills .nav-link {
+    margin-bottom: 20px;
+  }
+  .operational-model img {
+    width: 19px;
+    margin: 0px 10px;
+  }
+  .operational-model i {
+    font-size: 8px;
+  }
+}

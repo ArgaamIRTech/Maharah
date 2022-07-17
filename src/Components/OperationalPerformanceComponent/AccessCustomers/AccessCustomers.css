@@ -1,0 +1,22 @@
+.access-customers img {
+  margin: 20px;
+  height: 60px;
+}
+
+.access-customers {
+  padding: 150px 0;
+}
+.access-customers .h3 {
+  color: #415259;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+.access-customers h6 {
+  font-size: 20px;
+}
+.access-customers .ch-bac {
+  box-shadow: 0 0px 5px 0 #c5c5c5;
+  border-radius: 5px;
+  padding: 10px;
+}

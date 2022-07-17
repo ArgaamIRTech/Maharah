@@ -1,0 +1,25 @@
+.corporate-cector .h2 {
+  border-bottom: 2px solid #a98445;
+  width: 40%;
+}
+.corporate-cector .h3 {
+  color: #415259;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.corporate-cector .manpower {
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+}
+.corporate-cector .manpower img {
+  height: 70px;
+  margin: 15px;
+}
+
+.corporate-cector .manpower p {
+  color: #415259;
+  font-weight: 600;
+  font-size: 20px;
+}

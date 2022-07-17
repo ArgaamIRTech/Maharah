@@ -1,0 +1,62 @@
+.acquisitions {
+  padding-top: 100px;
+}
+.acquisitions .h2 {
+  color: #415259;
+  font-weight: 600;
+}
+.acquisitions .spectra-support {
+  width: 30%;
+  position: relative;
+  top: 200px;
+  right: -5%;
+}
+.acquisitions .spectra-support-ar {
+  width: 30%;
+  position: relative;
+  top: 200px;
+  left: -60%;
+}
+.acquisitions .cu-h1,
+.acquisitions .cu-h1,
+.acquisitions .last-path .cu-h1 {
+  color: #d8a115;
+  font-size: 70px;
+  font-weight: 600;
+}
+.acquisitions p,
+.acquisitions p {
+  color: #415259;
+}
+
+.acquisitions .cus-h2,
+.acquisitions .cus-h2,
+.acquisitions .last-path .cus-h2 {
+  color: #415259;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* Last Path */
+.acquisitions .last-path {
+  padding-top: 300px;
+}
+.salis {
+  padding-top: 100px;
+}
+
+/* Media */
+@media (min-width: 350px) and (max-width: 668.98px) {
+  .acquisitions .spectra-support .cu-h1,
+  .acquisitions .spectra-support-ar .cu-h1,
+  .acquisitions .last-path .cu-h1 {
+    font-size: 35px;
+  }
+  .acquisitions .spectra-support .cus-h2,
+  .acquisitions .spectra-support-ar .cus-h2,
+  .acquisitions .last-path .cus-h2 {
+    font-size: 13px;
+    width: 20%;
+  }
+}

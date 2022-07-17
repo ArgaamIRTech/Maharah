@@ -1,0 +1,11 @@
+.policy-commitment {
+  background: url(/static/media/bg.865cd6f8.png);
+  background-size: cover;
+  background-position: bottom;
+  padding: 100px 30px;
+}
+.policy-commitment .h3 {
+  color: #415259;
+  font-size: 30px;
+  font-weight: 600;
+}

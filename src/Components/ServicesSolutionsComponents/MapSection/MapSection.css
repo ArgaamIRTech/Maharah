@@ -1,0 +1,17 @@
+.map-section {
+  background: url(../../../Assets/servicesSolutions/bac.png);
+  background-size: cover;
+}
+.map-section {
+  padding: 200px 0;
+}
+.map-section .h3 {
+  color: #415259;
+  font-size: 30px;
+  font-weight: 600;
+}
+.map-section .mab-box {
+  width: 60%;
+  margin: 0 auto;
+  padding: 100px 0;
+}

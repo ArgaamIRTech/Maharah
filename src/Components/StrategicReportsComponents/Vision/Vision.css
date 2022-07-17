@@ -1,0 +1,14 @@
+.vision {
+  padding: 180px 0;
+}
+.vision .card img {
+  width: 70px;
+  height: 70px;
+}
+.vision .card .card-title {
+  color: #415259;
+  font-size: 25px;
+}
+.vision .card .card-text {
+  color: #707070;
+}

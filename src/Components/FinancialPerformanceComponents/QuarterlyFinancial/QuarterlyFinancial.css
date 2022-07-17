@@ -1,0 +1,16 @@
+.quarterly-financial .h2 {
+  border-bottom: 2px solid #a98445;
+  width: 50%;
+  margin-bottom: 85px;
+}
+.quarterly-financial .cust-box-shad {
+  box-shadow: 0 2px 5px 1px #ada8a8;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  padding: 50px 0;
+}
+.quarterly-financial h4 {
+  color: #a98445;
+  margin: 0 65px;
+  font-weight: 600;
+}

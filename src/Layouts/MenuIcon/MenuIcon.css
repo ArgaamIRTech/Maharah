@@ -1,0 +1,122 @@
+.menu-icon .cus-btn {
+  background: #a98445;
+  color: #fff;
+  position: fixed;
+  top: 50px;
+  right: 0 !important;
+  border-radius: 5px 0 0 20px;
+  padding: 0px 50px;
+  z-index: 100;
+  border: none;
+  font-size: 30px;
+  display: block !important;
+}
+.menu-icon .cus-btn .cus-icon {
+  position: relative;
+  left: -30px !important;
+}
+.menu-icon .section-links {
+  margin: 10px;
+  width: 30%;
+}
+.menu-icon .section-links .nav-link {
+  background: #fff;
+  color: #707070;
+  margin-bottom: 20px;
+  font-size: 20px;
+  border-radius: 15px 0 20px 15px;
+  padding: 15px;
+  font-weight: 500;
+  transition: ease-in-out 0.7s;
+}
+.menu-icon .section-links .nav-link:hover,
+.menu-icon .active {
+  background: #415259 !important;
+  color: #fff !important;
+}
+.menu-icon .section-links .nav-link i {
+  margin: 10px !important;
+  color: #a98445;
+}
+.menu-icon .modal-content {
+  background: #a98445;
+}
+.menu-icon .modal-header {
+  border: none;
+}
+.change-lang {
+  position: absolute;
+  background: transparent;
+  z-index: 100;
+  top: 58px;
+  border: none;
+  outline: none;
+  color: #fff;
+  right: 0 !important;
+  cursor: grab;
+}
+.menu-icon .lang {
+  background: #fff;
+  color: #415259;
+}
+
+/* Media */
+@media (min-width: 575.98px) and (max-width: 991.98px) {
+  .menu-icon .section-links .nav-link {
+    font-size: 17px;
+  }
+  .menu-icon .section-links .nav-link i {
+    margin: 0;
+  }
+  .menu-icon .section-links {
+    width: 100%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .menu-icon .modal-body {
+    display: block !important;
+  }
+  .menu-icon .section-links .nav-link {
+    font-size: 13px;
+  }
+  .menu-icon .section-links .nav-link i {
+    margin: 0;
+  }
+  .menu-icon .section-links {
+    width: 90%;
+  }
+}
+
+/* Arabic Style */
+/* .menu-icon .cus-btn-ar {
+  background: #a98445;
+  color: #fff;
+  position: fixed;
+  top: 50px;
+  left: 0 !important;
+  border-radius: 0 5px 20px 0;
+  padding: 0px 50px;
+  z-index: 100;
+  border: none;
+  font-size: 30px;
+  display: block !important;
+}
+.menu-icon .change-lang-ar {
+  position: absolute;
+  background: transparent;
+  z-index: 100;
+  top: 57px;
+  border: none;
+  outline: none;
+  color: #fff;
+  left: 0;
+  cursor: grab;
+}
+.menu-icon .cus-icon-ar {
+  position: relative;
+  left: 30px;
+} */
+.logo-ar {
+  display: none;
+}

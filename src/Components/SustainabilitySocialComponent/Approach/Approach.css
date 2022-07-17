@@ -1,0 +1,13 @@
+.approach {
+  padding: 130px 0;
+}
+.approach img {
+  height: 75px;
+  width: 85px;
+}
+.approach .card-title {
+  margin-bottom: 20px;
+}
+.approach .card-text {
+  margin-bottom: 30px !important;
+}

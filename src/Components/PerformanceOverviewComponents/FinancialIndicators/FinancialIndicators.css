@@ -1,0 +1,46 @@
+.financial-indicators .h2 {
+  border-bottom: 2px solid #a98445;
+  width: 50%;
+  margin-bottom: 85px;
+}
+.financial-indicators h2 {
+  color: #415259;
+  font-size: 22px;
+}
+.financial-indicators h3 {
+  color: #d8a115;
+  font-size: 70px;
+  font-weight: bold;
+  border-bottom: 3px solid #c9c3ad;
+}
+.financial-indicators p {
+  color: #707070;
+  margin-bottom: 80px;
+}
+.financial-indicators .def-color {
+  color: #a98445;
+}
+.financial-indicators .rev-info .h3,
+.financial-indicators .rev-info .h4 {
+  font-size: 70px;
+  margin: 0;
+  font-weight: bold;
+}
+.financial-indicators .rev-info .h3 {
+  color: #a98445;
+}
+.financial-indicators .rev-info .h4 {
+  color: #d8a115;
+}
+.financial-indicators .rev-info p {
+  color: #242e40;
+  font-size: 18px;
+}
+.financial-indicators .rev-info img {
+  width: 70px;
+  margin: 33px;
+}
+.financial-indicators .revenues-section {
+  border-radius: 20px;
+  overflow: hidden;
+}

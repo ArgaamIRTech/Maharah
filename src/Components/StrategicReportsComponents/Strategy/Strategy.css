@@ -1,0 +1,21 @@
+.strategy .h2 {
+  border-bottom: 2px solid #a98445;
+  width: 40%;
+  margin-top: 80px;
+}
+.strategy .h3 {
+  color: #415259;
+  font-size: 30px;
+  font-weight: 600;
+}
+.strategy .strategy-pillars h5 {
+  color: #415259;
+  font-weight: 900;
+  font-size: 25px;
+  margin: 0;
+}
+.strategy .strategy-pillars p {
+  color: #415259;
+  font-size: 20px;
+  margin: 0;
+}

@@ -1,0 +1,55 @@
+.our-human .h2 {
+  border-bottom: 2px solid #a98445;
+  width: 50%;
+  margin-bottom: 85px;
+}
+
+.our-human .h2 {
+  border-bottom: 2px solid #a98445;
+  width: 50%;
+  margin-bottom: 85px;
+}
+.our-human h2 {
+  color: #415259;
+  font-size: 22px;
+}
+.our-human h3 {
+  color: #d8a115;
+  font-size: 70px;
+  font-weight: bold;
+  border-bottom: 1px solid #c9c3ad;
+}
+.our-human p {
+  color: #707070;
+  margin-bottom: 60px;
+}
+.our-human .def-color {
+  color: #a98445;
+}
+.our-human .rev-info .h3,
+.our-human .rev-info .h4 {
+  font-size: 70px;
+  margin: 0;
+  font-weight: bold;
+}
+.our-human .rev-info .h3 {
+  color: #a98445;
+}
+.our-human .rev-info .h4 {
+  color: #d8a115;
+}
+.our-human .rev-info p {
+  color: #242e40;
+  font-size: 18px;
+}
+.our-human .rev-info img {
+  width: 70px;
+  margin: 33px;
+}
+.our-human .revenues-section {
+  border-radius: 20px;
+  overflow: hidden;
+}
+.our-human h4 {
+  color: #a98445;
+}

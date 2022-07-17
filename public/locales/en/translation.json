@@ -1,0 +1,559 @@
+{
+  "header": {
+    "managementLetters": "Management Letters",
+    "performanceOverview": "Performance Overview",
+    "strategicReports": "Strategic Reports",
+    "servicesSolutions": "Services & Solutions",
+    "operationalPerformance": "Operational Performance",
+    "sustainabilitySocial": "Sustainability & Social Impact",
+    "financialPerformance": "Financial Performance",
+    "downloadCenter": "Download Center"
+  },
+
+  "title": {
+    "annualReport": "Annual Report 2021",
+    "exploring": "Exploring",
+    "prospects": "The Prospects Of Growth ..",
+    "future": "For The Future"
+  },
+
+  "managementLettersPage": {
+    "fTitle": "Management Letters",
+    "sTitle": "Chairman And CEO Letters",
+    "fBtn": "Chairman's Letters",
+    "sBtn": "CEO Letters",
+
+    "chairman": {
+      "chairman_1": "Chairman's",
+      "chairman_2": "Letters",
+      "chairman_3": "Chairman",
+      "chairman_4": "Suleiman Bin Abdul Aziz Al Majed",
+      "p_1": "Messrs./ “Maharah” Shareholders and Partners, On my own behalf and on behalf of the Board, I have the pleasure to present to you Maharah Human Resources Company Annual Report 2021, in which the Company continued to focus more on sustainable growth, more strategic and operational empowerment.",
+
+      "p_2": "The year 2021 has witnessed lots of challenges, especially in the stage of market recovery in the wake of COVID-19 pandemic. On the other hand, it witnessed lots of achievements. Thanks to its Board and hardworking team, “Maharah” has been able to overcome lots of difficulties at this stage, and continued to provide a tangible added value to its customers and partners, maintained its business and sustainability efficiently while giving special care to human cadres and manpower.",
+
+      "p_3": "Most importantly, “Maharah” has continued its strategy for the diversification of its investments and provided services. Within the framework of our strategic transformations in 2021, we adopted the Digital Transformation Strategy, and further approved a Human Capital Transformation Program. We are still going on with steady steps on the path of operational excellence, driven by a highly diversified and flexible business model.",
+
+      "p_4": "In 2022, we shall further be honing our strategic focus and investments into the future, through the development of integrated services tailored to meet our customers’ needs, enhance our digital capabilities, develop our manpower and take on a leading role in the economic and social sustainability.",
+
+      "p_5": "Last but not least, I would like to express my gratitude and appreciation to the previous Board Members for their efforts exerted to achieve the Company objectives. At the same time, I hereby hail the election of the Board Members of the new session which started in May 2021, and shall continue for three years.",
+
+      "p_6": "I would like to extend my gratitude for the efforts exerted by the Government and the Ministry of Human Resources and Social Development (HRSD) in terms of supporting HR legislations and initiatives that aim at developing work laws and improving the relationship between the employees and enterprises",
+
+      "p_7": "It’s also my pleasure to hereby praise and acknowledge our wise leadership for its devoted care to both the business and private sectors in order to push forward the course of development in the Kingdom. I further thank our generous shareholders for their continuous confidence and support."
+    },
+
+    "chief": {
+      "chief_1": "Chief Executive Officer's",
+      "chief_2": "Letters",
+      "chief_3": "Chief Executive Officer",
+      "chief_4": "Abdul Aziz Bin Aidah Al Kathiri",
+      "title_1": "Overcoming Risks",
+      "title_2": "Creativity Comes on Top of Our Priority",
+      "title_3": "Growth Seeds",
+      "title_4": "Reaping the Fruits",
+
+      "p_1": "Messrs./ “Maharah” Shareholders and Partners, In light of the exceptional and tremendous efforts exerted by “Maharah” employees; the Company managed, in 2021, to overcome a number of challenges that resulted from the consequences of the COVID-19 pandemic over the past year in a flexible way that helped it to overcome such obstacles. The key objective of the Company was to restore the normal status before the pandemic, but the suspension of receiving the manpower from the biggest outsourcing countries most of the year prevented the Company from achieving such key objective. Despite the airport and airfield closures imposed upon such outsourcing countries, yet, the Company managed to launch a number of initiatives and provide quick solutions to maintain its operational efficiency and internal work model, to make the optimum use of the available cost-effective resources. However, the pandemic had a great and positive effect on the Company, as Company, due to facing such pandemic, was obliged to think outside the box and create new initiatives and procedures that helped to add to the growth of the sector instead of its shrinking. Such procedures led to the rise in the Company revenues in Q4 by 74% at SAR 39.27 million, despite the challenges we faced.",
+
+      "p_2": "The spread of “COVID-19” pandemic in the manpower sourcing countries has massively affected the growth of the Company business, however, we managed to look for alternatives, to recruit manpower from various countries, activate the internal employment, and maintain large number of manpower by renewing their contracts through granting them many new benefits and advantages. We further attempted to resiliently pace up with the quick legislative challenges in the Kingdom; having responded to the contractual relationship improvement initiative by amending the Company’s contracts with its customers and manpower, in light of the new requirements of the manpower collective housing. Let alone the fact that we have been keen on obtaining licenses required by the new legislations.",
+
+      "p_3": "Within the framework of our strenuous attempts to combat the last year’s challenges, we created an operational work model for outsourcing the Saudis’ services, and to include that in our services portfolio. We started on serious steps to establish Maharah Academy, and expand our customers in the Corporate and Individuals sectors. Our Corporate sector growing customers base includes more than 900 customers in various sectors, and more than 90.000 customers from the Individuals sector. Let alone the enhancement of the E-branch (Individuals sector customers application) so that all sale and self-services shall be done via such E-branch to ease the process for the customers and make their experiences with the Company unique and memorable.",
+
+      "p_4": "In 2021, we focused on hard strenuous operational work, and sought to sow the seeds of growth by considering the investment opportunities and expanding the acquisitions of the ownership stakes in companies specialized in the provision of various support services. Moreover, we launched the Digital Transformation Strategy and established a recruitment platform to be able to recruit manpower from various markets. We also approved the Human Capital Transformation Project, which aim at empowering, developing human high calibers and rewarding them according to their performances by approving a performance assessment system based on the performance assessment indicators and behavioral efficiencies.",
+
+      "p_5": "In light of the growth achieved in Q4 2021, we expect to reap the fruits of what we have sown over the last year, which would positively reflect on 2022 results, driven by our future investment strategy based on diversification and transformation, along with the positive economic environment after allowing direct flights to the Kingdom and alleviating precautionary measures. On the long run, we do anticipate that the Company shall greatly benefit from the development boom the Kingdom has lately witnessed and the increasing demand on the HR services to meet the population growth, industrial and urban expansion and huge investments pumped by our wise government."
+    }
+  },
+
+  "performanceOverview": {
+    "fTitle": "Performance Overview",
+    "sTitle": "Of The Year 2021",
+    "more": "More",
+    "fTestT": "2021 Performance",
+    "sTestT": "Overview",
+    "financialT": "Financial Indicators",
+    "financialT_1": "Company Revenues",
+    "financialT_2": "Operating Profit",
+    "financialT_3": "Total Assets",
+    "financialT_4": "Net Income",
+
+    "cT_1": "Billion Saudi Riyals",
+    "cT_2": "Return On Equity (ROE)",
+    "cT_3": "Million Saudi Riyals",
+    "cT_4": "Realized Profit Distributed",
+
+    "cT_5": "Million Saudi Riyals",
+    "cT_6": "As Current Assets",
+    "cT_7": "Million Saudi Riyals",
+    "cT_8": "Net Income Of Shareholders Of The Parent Company",
+
+    "cT_9": "Individuals Sector",
+    "cT_0": "Corporate Sector",
+
+    "operational_t": "Operational Performance",
+
+    "operational_t_1": "More Than 900 Customers In The Corporate Sector",
+    "operational_t_2": "More Than 90,000 Customers In The Individuals Sector",
+    "operational_t_3": "Service For More Than 160,000 Houses",
+    "operational_t_4": "22 Company Branches Cover 11 Cities All Over The Kingdom",
+    "operational_t_5": "Providing More Than 120,000 Employees In More Than 383 Professions",
+    "operational_t_6": "More Than 50,000 Subscribers In (Khidmah) Application"
+  },
+
+  "strategicReports": {
+    "fTitle": "Strategic Report",
+    "sTitle": "Empowerment For The Future",
+    "section_title_1": "Strategic",
+    "section_title_2": "Report",
+    "vision": "Vision",
+    "mission": "Mission",
+    "values": "Values",
+
+    "vision_p": "Leading the human resources sector by providing comprehensive & integrated solutions that ensure our customers’ success, protect employees’ rights, and support the national development",
+
+    "mission_p": "We are working on providing innovative and integrated human resources solutions and services to our customers through institutionalized system, superior IT and strategic partnerships that serve our employees, customers, and community.",
+
+    "values_p": "Creation and innovation, integrity and transparency, quality and excellence, teamwork spirit, customer centricity.",
+
+    "path_t": "Path",
+    "path_d": "Nine years of leadership and innovation",
+
+    "feb_2013": "Feb 2013",
+    "feb_2013_t": "“Maharah” has been incorporated as a closed joint stock company with a capital of SAR 100 million.",
+
+    "may_2014": "May 2014",
+    "may_2014_t": "The Company manpower amounted to  (10.000) employees.",
+
+    "feb_2015": "Feb 2015",
+    "feb_2015_t": "Launching “Khidmah” Program.",
+
+    "dec_2016": "Dec 2016",
+    "dec_2016_t": "The Company Manpower Amounted To (30.000) Employees.",
+
+    "may_2017": "May 2017",
+    "may_2017_t": "“Maharah” Obtained The ISO Certificate 9001:2015.",
+
+    "sep_2017": "Sep 2017",
+    "sep_2017_t": "Expansion In The UAE Through The Acquisition Of 85% Stake In “Musanid”.",
+
+    "nov_2018": "Nov 2018",
+    "nov_2018_t": "“Maharah” Acquired 40% Stake In “BLOOVO”.",
+
+    "dec_2018": "Dec 2018",
+    "dec_2018_t": "The Company Capital Has Increased To SAR (375.000.000).",
+
+    "mar_2019": "Mar 2019",
+    "mar_2019_t": "The Capital Market Authority (CMA) Approval To The Offering Of 30% Of The Company Shares For Public Subscription.",
+
+    "jun_2019": "Jun 2019",
+    "jun_2019_t": "Starting The Trade (Tadawul) Of The Company Shares In The Saudi Arabia Stock Market (TASI).",
+
+    "strategy": "Strategy",
+    "strategy_d": "Creativity in exploring opportunities",
+    "strategy_pillars": "Strategic Pillars",
+
+    "enhancing_t": "Enhancing",
+    "developing_t": "Developing",
+    "searching_t": "Searching",
+
+    "enhancing_d": "Infrastructure",
+    "developing_d": "Current Services",
+    "searching_d": "For New Horizons",
+
+    "operational_model": "Operational Model",
+
+    "customers": "Customers",
+    "channels": "Channels",
+    "outreach": "Customers Outreach Units",
+
+    "companies": "Companies",
+    "government": "Government Al Authorities",
+    "vip": "VIP Customers",
+    "individuals": "Individuals",
+    "shareholders": "Shareholders and owners",
+
+    "sales": "Sales and relationship Managers",
+    "branchs": "Branchs",
+    "call_centers": "Call Centers",
+    "e_channels": "E-channels",
+    "tadawul": "Company Announcements on Tadawul",
+
+    "corporate": " Individuals & Corporate",
+    "administrative": "Administrative and Support Operations",
+    "project_management": "Project Management",
+    "manpower_services": "Manpower services",
+    "logistics": "Logistics and Operations",
+    "marketing": "Marketing",
+
+    "digital_t": "Digital Transformation Strategy",
+    "digital_d": "Enhancement of digital footprint at the age led by the digital revolution digital transformation is no longer an option.",
+
+    "digital_s_t_1": "Use Of Financial Technologies",
+    "digital_s_t_2": "Mobilization For Digital Age",
+    "digital_s_t_3": "Maharah Digital Marketing",
+    "digital_s_t_4": "Digital Preparation And Training",
+
+    "digital_s_t_5": "Utilization Of Cloud Services",
+    "digital_s_t_6": "Robotics",
+    "digital_s_t_7": "Future Forecasts",
+    "digital_s_t_8": "Devices Smart",
+
+    "digital_p_d_1": "Digital transformation is one of the main pillars to achieve the kingdom vision 2030.",
+    "digital_p_d_2": "The national transformation program (ntp) aims to support the digital transformation in the kingdom.",
+    "digital_p_d_3": "Digital technologies forced companies to change their methods of work.",
+
+    "acquisitions_t": "Acquisitions",
+
+    "acquisitions_dec_2020": "Dec 2020",
+    "acquisitions_dec_2020_d": "“Maharah” signs mou with “spectra support services company”(“spectra”) for the acquisition of the majority stakes.",
+
+    "acquisitions_apr_2021": "Apr 2021",
+    "acquisitions_apr_2021_d": "Signing an spa for the acquisition of 90% of “spectra support services company” (“spectra”)",
+
+    "acquisitions_aug_2021": "Aug 2021",
+    "acquisitions_aug_2021_d": "Completion of the sale and purchase of stakes for the acquisition of 90% of “spectra”",
+
+    "acquisitions_jun_2021": "Jun 2021",
+    "acquisitions_jun_2021_d": "Extending the deadline for meeting the prior-to-closing conditions to october 30, 2021.",
+
+    "acquisitions_ls_t_1": "Acquisition Of",
+    "acquisitions_ls_t_2": "Spectra Support Services Company",
+
+    "acquisitions_path_t_1": "Acquisition Of",
+    "acquisitions_path_t_2": "Arabian Shifa Medical Co.",
+
+    "acquisitions_path_September_1": "September 28, 2021",
+    "acquisitions_path_September_2": "Growth avenue investment company  (“gac”) signs an mou for the acquisition of 85 of the stakes of “arabian shifa medical co.",
+
+    "acquisitions_path_december_1": "December 26, 2021",
+    "acquisitions_path_december_2": "Spa signed for the acquisition of 85% of the ownership stake of “SHIFA”",
+
+    "acquisitions_path_january_1": "January 6, 2022",
+    "acquisitions_path_january_2": "(“gac”) receives a no objection statement from the general authority for competition for the completion of economic concentration between both companies.",
+
+    "acquisitions_path_lsjanuary_1": "January 13, 2022",
+    "acquisitions_path_lsjanuary_2": "Transfer of ownership stakes of 85% of “Arabian Shifa Medical Co.” To “growth avenue investment company” (“gac”)",
+
+    "salis_p": "Acquisition Of",
+    "salis_t": "Salis For Trading & Marketing",
+
+    "strategic_horizons_t": "Strategic Horizons Of 2022",
+
+    "strategic_horizons_text_1": "We aim to enhance the customer satisfaction, to achieve excellence in customer experience, enhance the mental image and foster the quality of services provided.",
+
+    "strategic_horizons_text_2": "We aim at achieving the financial sustainability through the increase of the market stake, the development and diversification of services provided and the achievement of growth in revenues and profits.",
+
+    "strategic_horizons_text_3": "We continue to work on the development of the manpower and maintenance of efficiencies within an attracting environment, in addition to excellence in digital transformation.",
+
+    "strategic_horizons_text_4": "We work on achieving the operational excellence with minimum strategic and operational risks.",
+
+    "strategic_horizons_text_5": "We aim to achieve full harmony between the Company and subsidiaries and associates.",
+
+    "strategic_horizons_text_6": "We look for the investment opportunities that are compatible with the Company strategy.",
+
+    "strategic_horizons_text_7": "We aim to achieve rewarding revenues for our honorable Shareholders.",
+
+    "strategic_objectives_t_1": "Aspirations In 2022",
+    "strategic_objectives_t_2": "Strategic Objectives",
+
+    "strategic_objectives_b_t_1": "Financial",
+    "strategic_objectives_b_t_2": "Customers",
+    "strategic_objectives_b_t_3": "Internal Operations",
+    "strategic_objectives_b_t_4": "Learning & Growth",
+
+    "strategic_objectives_financial_1": "Increasing market stake",
+    "strategic_objectives_financial_2": "Developing and diversifying services provided",
+    "strategic_objectives_financial_3": "Achieving growth in returns and dividends.",
+
+    "strategic_objectives_customers_1": "Enhancing customer satisfaction, experience and mental image.",
+    "strategic_objectives_customers_2": "Enhancing quality of services provided",
+
+    "strategic_objectives_internal_1": "Achieving operational excellence",
+    "strategic_objectives_internal_2": "Mitigating strategic and operational risks",
+
+    "strategic_objectives_learning_1": "Developing manpower and maintaining the same within an attractive environment",
+    "strategic_objectives_learning_2": "Achieving excellence in digital transformation",
+
+    "subsidiaries_t_1": "Spectra",
+    "subsidiaries_t_2": "GAIC",
+    "subsidiaries_t_3": "NABD",
+    "subsidiaries_t_4": "Shifa",
+    "subsidiaries_t_5": "TPH",
+    "subsidiaries_t_6": "BLOOVO",
+
+    "spectra": {
+      "spectra_t_1": "Spectra Support Services Company (Spectra)",
+      "spectra_t_2": "Kingdom Of Saudi Arabia",
+      "spectra_t_3": "Subsidiary",
+
+      "spectra_d_1": "The provision of the perfect service by offering the best and latest technologies in the field of maintenance including plumbing, air conditioning and power services.",
+
+      "spectra_d_2": "”Spectra Support Services Company”, was established in 2015, and is headquartered in Riyadh.",
+
+      "spectra_d_3": "“Spectra” seeks to achieve the highest levels of quality and excellence in operation, maintenance and other support services through a modern system that complies with the market requirements. It seeks to promote the level of service provided to customers in both the public and private sectors.",
+
+      "spectra_d_4": "”Maharah” acquired 90% of “Spectra” ownership on August 4, 2021.",
+
+      "spectra_d_5": "“Spectra” is specialized in the provision of the maintenance, operation, cleaning and other support services in the Kingdom of Saudi Arabia"
+    },
+
+    "gaic": {
+      "gaic_t_1": "Growth Avenue Investment Company” (“GAC”)",
+      "gaic_t_2": "Kingdom Of Saudi Arabia",
+      "gaic_t_3": "Subsidiary",
+
+      "gaic_d_1": "“Maharah” has established “Growth Avenue Investment Company” (“GAC”) on June 14, 2021, which is a limited liability company, registered in Riyadh, and 100% owned by Maharah Human Resources Company.",
+
+      "gaic_d_2": "“Growth Avenue Investment Company” is specialized in the provision of financial services other than insurance and funding contractual pensions that are not classified anywhere else.",
+
+      "gaic_d_3": "“Growth Avenue Investment Company” has established “NABD for Logistics Services” (“NABD”) on August 12, 2021, which is a limited liability company, registered in Riyadh, and licensed for the provision of logistic services.",
+
+      "gaic_d_4": "“Growth Avenue Investment Company” acquired 85% of “Arabian Shifa Medical Co.” on January 13, 2022."
+    },
+
+    "nabd": {
+      "nabd_t_1": "“NABD For Logistics Services” (“NABD”)",
+      "nabd_t_2": "Kingdom Of Saudi Arabia",
+      "nabd_t_3": "Subsidiary",
+
+      "nabd_t_4": "Vision",
+      "nabd_t_5": "Mission",
+      "nabd_t_6": "Services",
+      "nabd_t_7": "Fleet",
+
+      "nabd_d_1": "The Provision Of Logistic And Delivery Services To Our Customers By Offering Innovative Solutions And Developed Technologies To Meet The Increasing Demand On Speedy Trade And Immediate Delivery.",
+
+      "nabd_d_2": "“Growth Avenue Investment Company” Is Specialized In The Provision Of Financial Services Other Than Insurance And Funding Contractual Pensions That Are Not Classified Anywhere Else.",
+
+      "nabd_d_3": "Delivery Services: Expressed & Scheduled Delivery",
+
+      "nabd_d_4": "On-Demand Specialized Delivery: Yearly, Monthly, Per Day And Per Hour.",
+
+      "nabd_d_5": "New Vehicles (Model 2022).",
+      "nabd_d_6": "Economical In Fuel Consumption.",
+      "nabd_d_7": "Various Types (Sedan, Bike, Van)."
+    },
+
+    "shifa": {
+      "shifa_t_1": "“Arabian Shifa Medical Co.”",
+      "shifa_t_2": "Kingdom Of Saudi Arabia",
+      "shifa_t_3": "Subsidiary",
+
+      "shifa_t_4": "Vision",
+      "shifa_t_5": "Mission",
+      "shifa_t_6": "Values",
+
+      "shifa_d_1": "“Shifa” Has Been Incorporated In 2017, And Is A Pioneering Company Specialized In Healthcare, And Management And Operation Of Hospitals In The Kingdom.",
+
+      "shifa_d_2": "To Be A Benchmark For Excelllence In Domestic Care Servises, Extended Stay Hospital And Hospotal Operation.",
+
+      "shifa_d_3": "To Be Developed In Medicine With The Provision Of Comprehensive Developed Health Services While Focusing On The Treatment And Prevenive Aspects In Oder To Have A Patient-Care Centericity Along With Integrated Care For The Entire Community.",
+
+      "shifa_d_4": " Empowerment And Increasing Potentials",
+      "shifa_d_5": "Passion",
+      "shifa_d_6": "Loyalty",
+      "shifa_d_7": "Honesty",
+      "shifa_d_8": "Patient And Quality Centricity",
+      "shifa_d_9": "Teamwork Spirit"
+    },
+
+    "tph": {
+      "tph_t_1": "Musanid Cleaning Services (TPH Group)",
+      "tph_t_2": "Kingdom Of Saudi Arabia",
+      "tph_t_3": "Subsidiary",
+
+      "tph_d_1": "“TPH” Was Established In 2015 And Is Headquartered In Dubai, United Arab Emirates.",
+
+      "tph_d_2": "“TPH” Is Specialized In The Provision Of Buildings Cleaning Services, And Main Services To Real Estates.",
+
+      "tph_d_3": "More Than 15.000 Customers Benefited From The Group Services On A Daily Basis.",
+
+      "tph_d_4": "More Than 135.000 Customers Have Benefited From The Group Services In 2021",
+
+      "tph_d_5": "1.100 Employees Work In The Group",
+
+      "tph_d_6": "The Group Offers 8 Specialist Training Courses.",
+
+      "tph_d_7": "“TPH” Services Include: Domestic Helpers, Drivers, Maintenance Workers Like Insect Control Workers And Others On Part Time Or Hourly Basis, In Addition To Outsourcing Them To Full Time Jobs.",
+
+      "tph_d_8": "“TPH” Aims To Expand Its Services In Order To Change The Scene In The Individuals Service In United Arab Emirates, And Bestow Upon The Same An International Level Of Excellence That Is Not Available In The Market."
+    },
+
+    "bloovo": {
+      "bloovo_t_1": "BLOOVO Limited",
+      "bloovo_t_2": "United Arab Emirates",
+      "bloovo_t_3": "Associate",
+
+      "bloovo_d_1": "“BLOOVO” provides a selective group of innovative and smart recruitment solutions, to help employers and job seekers, through AI-Powered Recruitment Technology with the automated learning algorithms, which aim to pace up and simplify the operations for the acquisition and management of talents, and the automatic arrangement of candidates, through significant matching results, that saves time and costs of company owners."
+    },
+
+    "strategic_potentials_sec_t_1": "Senior leadership that enjoys experience and qualifications",
+    "strategic_potentials_sec_t_2": "Big customer database",
+    "strategic_potentials_sec_t_3": "Strong financial solvency",
+    "strategic_potentials_sec_t_4": "Excellent technological systems",
+    "strategic_potentials_sec_t_5": "Wide geographical spread",
+
+    "strategic_potentials_sec_t_6": "Strategic Potentials"
+  },
+
+  "servicesSolutions": {
+    "fTitle": "Services & Solutions",
+    "section_title_1": "Services & ",
+    "section_title_2": "Solutions",
+    "section_title_3": "Corporate Sector",
+    "section_title_4": "Manpower Services",
+
+    "manpower_services_t_1": "Retail Sector",
+    "manpower_services_t_2": "Hospitality & Entertainment Sector",
+    "manpower_services_t_3": "Medical Sector",
+    "manpower_services_t_4": "Industrial & Operational Sector",
+    "manpower_services_t_5": "Commercial & Banking Sector",
+    "manpower_services_t_6": "Government Sector",
+
+    "mapT": "Geographic Distribution",
+
+    "esnadT": "Esnad Maharah",
+    "esnad_l_1": "The provision of national cadres to companies.",
+    "esnad_l_2": "Outsource the HR services",
+    "esnad_l_3": "The recruitment of efficient cadres and development.",
+    "esnad_l_4": "Seasonal employment",
+
+    "individualsSector_t_1": "Individuals Sector",
+    "individualsSector_t_2": "Provided Packages",
+    "individualsSector_t_3": "(Khidmah) Application",
+    "individualsSector_t_4": "Full Time Services",
+    "individualsSector_t_5": "Part Time Services",
+
+    "individualsSector_d_1": "Service provider's residence in the customers' homes",
+    "individualsSector_d_2": "Khidmah Program",
+    "individualsSector_d_3": "Working for limited Hours",
+    "individualsSector_d_4": "Varied Monthly Packages",
+    "individualsSector_d_5": "Beneficiaries cutomers",
+
+    "mainActivities_t_1": "Revenues Of The Main Activities Of The Company",
+    "mainActivities_t_2": "Total Revenues",
+    "mainActivities_t_3": "Million Saudi Riyals",
+
+    "allValues_text": "* All Values In Million Saudi Riyals",
+    "allValues_t_1": "Individuals",
+    "allValues_t_2": "Industrial And Operational",
+    "allValues_t_3": "Retail",
+    "allValues_t_4": "Hospitality",
+    "allValues_t_5": "Healthcare",
+    "allValues_t_6": "Commercial",
+    "allValues_t_7": "Esnad Sector"
+  },
+
+  "operationalPerformanceP": {
+    "op_title_1": "Operational Performance",
+    "op_title_2": "A Future Rich With Opportunities",
+
+    "op_title_3": "Operational",
+    "op_title_4": "Performance",
+
+    "op_title_5": "Our Human Resources",
+    "op_title_6": "Nationalization Percentage",
+    "op_title_7": "Saudis",
+    "op_title_8": "Non-Saudis",
+
+    "turnover_rate_t": "Turnover Rates",
+
+    "competencies_t_1": "Competencies Of Recruitment",
+    "competencies_t_2": "Human Capital Transformation Program",
+    "competencies_t_3": "Key Achievements",
+
+    "competencies_t_4": "Organizational Structure",
+    "competencies_t_5": "Comprehensive Bonus",
+    "competencies_t_6": "HR Strategy",
+    "competencies_t_7": "Job Assessment",
+    "competencies_t_8": "Frame Of Technical & Behavioral Competencies",
+    "competencies_t_9": "Assessment Of Developed Performance",
+
+    "talentDevelopment_t_1": "Talent Developmen",
+    "talentDevelopment_t_2": "Training Hours",
+    "talentDevelopment_t_3": "Completion",
+    "talentDevelopment_t_4": "Trainee",
+    "talentDevelopment_t_5": "Online Training",
+
+    "talentDevelopment_s_t_1": "Hours",
+    "talentDevelopment_s_t_2": "Percent",
+    "talentDevelopment_s_t_3": "Trainee",
+
+    "access_t_1": "Access To Our Customers",
+    "access_t_2": "Excellence In Organizational Communication",
+    "access_t_3": "Effective Marketing",
+    "access_t_4": "Digital Marketing"
+  },
+
+  "sustainability": {
+    "sustainability_t_1": "Sustainability",
+    "sustainability_t_2": "Approach Towards Sustainability",
+    "sustainability_t_3": "Sustainability",
+    "sustainability_t_4": "Approach",
+
+    "approach_t_1": "Vision",
+    "approach_t_2": "Mission",
+    "approach_t_3": "Pillars",
+
+    "approach_tx_1": "Contributing to the community sustainability and service and to having a positive effect to build a developed and vital community.",
+
+    "approach_tx_2": "Stemming from our belief that the company social responsibility is a religious and moral duty, and by way of achieving the social solidarity and cooperation, we have laid down the main pillars for the provision of social responsibility practices, in line with the Kingdom Vision 2030 and UN Sustainable Development Program.",
+
+    "approach_tx_3": "Providing support to the third sector and community members to achieve the transition from pastoral work to development in order to contribute to the sustainable development. The sustainability of the vital resources like environment, man and power today shall form our future, and our aim is to limit the harmful practices that might negatively affect the future generations.",
+
+    "policy_commitment_f_t": "Policy Of Commitment",
+    "policy_commitment_f_tx": "The most important features of the Company’s policy of commitment to the governance, social and environmental issues are as follows",
+
+    "policy_commitment_t_1": "Enablement Of HR",
+    "policy_commitment_t_2": "Enhancement Of Shareholders' Confidence ",
+    "policy_commitment_t_3": "Enhancement Of Internal Work Environment",
+    "policy_commitment_t_4": "Enhancement Of The Services Quality Provided To Customers",
+    "policy_commitment_t_5": "Activating Of Social Resposibility",
+    "policy_commitment_t_6": "Engaging Stakeholders"
+  },
+
+  "financial_performance": {
+    "financial_performance_t_1": "Financial Performance",
+    "financial_performance_t_2": "Persistence In The Face Of Challenges",
+    "financial_performance_t_3": "Financial ",
+    "financial_performance_t_4": "Performance",
+
+    "quarterly_section_t_1": "Quarterly Financial Results",
+    "quarterly_section_t_2": "Revenues",
+    "quarterly_section_t_3": "Gross Income",
+    "quarterly_section_t_4": "Net Income",
+
+    "growth_rates_t_1": "2021 Growth Rates",
+
+    "growth_rates_s_t_1": "Revenues",
+    "growth_rates_s_t_2": "Operation Income",
+    "growth_rates_s_t_3": "Profit Distribution",
+    "growth_rates_s_t_4": "Gross Margin",
+    "growth_rates_s_t_5": "Cash Conversion Ratio (CCR)",
+    "growth_rates_s_t_6": "Cash Ratio",
+
+    "growth_rates_s_t_7": "Net Income",
+    "growth_rates_s_t_8": "Cash From Operations",
+    "growth_rates_s_t_9": "Net Working Capital",
+    "growth_rates_s_t_0": "Net Margin",
+    "growth_rates_s_t_00": "Liquidity Ratio",
+
+    "growth_rates_text": "Million Saudi Riyals"
+  },
+
+  "download_center": {
+    "download_center_t_1": "Download Center",
+    "download_center_t_2": "Full Report Or Customized",
+    "download_center_t_3": "Download",
+    "download_center_t_4": "Center"
+  },
+
+  "footer": {
+    "section_1": "Download",
+    "dic_1": "Current Section PDF File",
+    "section_2": "Next Chapter",
+    "dic_2": "Performance Overview",
+
+    "section_last_1": "Back To Home"
+  }
+}

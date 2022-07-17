@@ -1,0 +1,33 @@
+/* .individuals-sector {
+} */
+
+.individuals-sector .h2 {
+  border-bottom: 2px solid #a98445;
+  width: 40%;
+}
+.individuals-sector .individ-box img {
+  height: 60px;
+  width: 60px;
+  margin: 10px;
+}
+.individuals-sector li::marker {
+  color: #c9c3ad;
+  font-weight: bold;
+  font-size: 25px;
+}
+.individuals-sector .khidma img {
+  height: 150px;
+}
+.individuals-sector h4,
+h5 {
+  color: #415259;
+  font-weight: 600;
+}
+.individuals-sector .khidma h2 {
+  color: #d8a115;
+  font-weight: 600;
+  font-size: 50px;
+}
+.individuals-sector .khidma img {
+  margin: 10px;
+}

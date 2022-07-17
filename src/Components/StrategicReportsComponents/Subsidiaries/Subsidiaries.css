@@ -1,0 +1,49 @@
+.subsidiaries {
+  padding-top: 100px;
+}
+.subsidiaries .h2 {
+  border-bottom: 2px solid #a98445;
+  width: 40%;
+  margin-bottom: 50px;
+}
+.subsidiaries .nav-pills .nav-link {
+  color: #415259;
+  box-shadow: 0 0px 2px 0 #a2a1a1;
+  border-radius: 15px;
+  width: 35%;
+  display: list-item;
+  margin: 20px;
+}
+
+.subsidiaries .nav-pills .nav-link img {
+  height: 50px;
+  margin-bottom: 10px;
+}
+.subsidiaries .nav-pills .nav-link.active {
+  border: 2px solid;
+}
+.subsidiaries .box-tab-info {
+  padding: 25px 0;
+  border-radius: 10px;
+  box-shadow: 0 0 4px 0 #b4adad;
+}
+.subsidiaries .box-tab-info h4 {
+  color: #a98445;
+  font-weight: 600;
+}
+.subsidiaries .box-tab-info p {
+  color: #415259;
+  font-weight: 600;
+}
+.subsidiaries .box-tab-info img {
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+.subsidiaries h6 {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.subsidiaries ul li {
+  line-height: 2;
+}

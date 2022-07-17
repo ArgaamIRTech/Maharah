@@ -1,0 +1,31 @@
+.growth-rates {
+  padding: 100px 0;
+}
+
+.growth-rates .h2 {
+  border-bottom: 2px solid #a98445;
+  width: 50%;
+  margin-bottom: 85px;
+}
+
+.groth-box-1,
+.groth-box-2 {
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.growth-rates .groth-box-1 h5,
+.growth-rates .groth-box-2 h5 {
+  color: #415259;
+}
+.growth-rates .groth-box-1 .h3,
+.growth-rates .groth-box-2 .h3 {
+  font-size: 70px;
+  font-weight: 600;
+}
+.growth-rates .groth-box-1 .h3 {
+  color: #415259;
+}
+.growth-rates .groth-box-2 .h3 {
+  color: #d8a115;
+}

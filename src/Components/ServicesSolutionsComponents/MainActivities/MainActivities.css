@@ -1,0 +1,17 @@
+.main-activities {
+  overflow: hidden;
+  box-shadow: 0 1px 9px 0 #b1a7a7;
+}
+.main-activities .h2 {
+  border-bottom: 2px solid #a98445;
+  width: 50%;
+}
+.main-activities h2 {
+  color: #415259;
+  font-weight: 600;
+}
+.main-activities h3 {
+  color: #d8a115;
+  font-size: 70px;
+  font-weight: bold;
+}

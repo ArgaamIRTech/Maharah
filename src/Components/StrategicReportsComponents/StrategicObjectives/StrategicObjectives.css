@@ -1,0 +1,28 @@
+.strategic-objectives {
+  padding-top: 100px;
+}
+.strategic-objectives .h2 {
+  border-bottom: 2px solid #a98445;
+  width: 40%;
+  margin-bottom: 50px;
+}
+.strategic-objectives h4 {
+  color: #415259;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 100px;
+}
+.strategic-objectives .obj-box {
+  border-left: 3px solid #c9c3ad;
+  padding: 0 10px;
+  margin-bottom: 40px;
+}
+.strategic-objectives .obj-box h5 {
+  color: #415259;
+  font-weight: 600;
+}
+.strategic-objectives li::marker {
+  color: #c9c3ad;
+  font-weight: bold;
+  font-size: 25px;
+}
