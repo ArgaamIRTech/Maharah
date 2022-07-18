@@ -45,7 +45,7 @@
   border: none;
 }
 .change-lang {
-  position: absolute;
+  position: fixed;
   background: transparent;
   z-index: 100;
   top: 58px;
