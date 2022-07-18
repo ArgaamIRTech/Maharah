@@ -523,3 +523,37 @@ a {
 .d-n {
   display: none;
 }
+
+@media (min-width: 1540px) {
+  .management-letters .chairman {
+    padding-top: 1100px;
+  }
+
+  .performance-overview .financial-section {
+    padding-top: 1100px;
+  }
+
+  .strategic-reports .report-section {
+    padding-top: 1100px;
+  }
+
+  .services-solutions .services-sector {
+    padding-top: 1100px;
+  }
+
+  .operation-performance .op-section {
+    padding-top: 1100px;
+  }
+
+  .sustainability-social .sust-section {
+    padding-top: 1100px;
+  }
+
+  .financial-performance .financial-section {
+    padding-top: 1100px;
+  }
+
+  .download-center .download-section {
+    padding-top: 1100px;
+  }
+}
