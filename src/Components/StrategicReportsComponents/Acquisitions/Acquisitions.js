@@ -80,25 +80,6 @@ const Acquisitions = () => {
               </div>
             </li>
 
-            {/* Li Right */}
-            <li
-              className="timeline-inverted mb-4"
-              data-aos="zoom-in"
-              data-aos-duration="1500"
-            >
-              <div className="timeline-badge _6"></div>
-              <div className="timeline-panel">
-                <div className="timeline-heading">
-                  <h5 className="timeline-title">
-                    {t("strategicReports.acquisitions_aug_2021")}
-                  </h5>
-                </div>
-                <div className="timeline-body">
-                  <p>{t("strategicReports.acquisitions_aug_2021_d")}</p>
-                </div>
-              </div>
-            </li>
-
             {/* Li Left */}
             <li data-aos="zoom-in" data-aos-duration="1500">
               <div className="timeline-badge _9"></div>
@@ -110,6 +91,25 @@ const Acquisitions = () => {
                 </div>
                 <div className="timeline-body">
                   <p> {t("strategicReports.acquisitions_jun_2021_d")}</p>
+                </div>
+              </div>
+            </li>
+
+            {/* Li Right */}
+            <li
+              className="timeline-inverted mb-4"
+              data-aos="zoom-in"
+              data-aos-duration="1500"
+            >
+              <div className="timeline-badge _4"></div>
+              <div className="timeline-panel">
+                <div className="timeline-heading">
+                  <h5 className="timeline-title">
+                    {t("strategicReports.acquisitions_apr_2021")}
+                  </h5>
+                </div>
+                <div className="timeline-body">
+                  <p>{t("strategicReports.acquisitions_apr_2021_d")}</p>
                 </div>
               </div>
             </li>

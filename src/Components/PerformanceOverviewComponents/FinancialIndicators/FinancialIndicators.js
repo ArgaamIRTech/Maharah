@@ -22,7 +22,7 @@ export const options = {
   width: "100%",
   height: "100%",
   pieHole: 0.6,
-  is3D: true,
+  is3D: false,
   legend: "none",
   titlePosition: "none",
   slices: {

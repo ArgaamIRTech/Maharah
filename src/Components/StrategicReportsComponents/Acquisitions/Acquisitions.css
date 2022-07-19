@@ -8,13 +8,13 @@
 .acquisitions .spectra-support {
   width: 30%;
   position: relative;
-  top: 200px;
+  top: 50px;
   right: -5%;
 }
 .acquisitions .spectra-support-ar {
   width: 30%;
   position: relative;
-  top: 200px;
+  top: 100px;
   left: -60%;
 }
 .acquisitions .cu-h1,
@@ -38,9 +38,13 @@
   margin-bottom: 20px;
 }
 
+.acquisitions .timeline {
+  margin-top: -121px;
+}
+
 /* Last Path */
 .acquisitions .last-path {
-  padding-top: 300px;
+  padding-top: 200px;
 }
 .salis {
   padding-top: 100px;
