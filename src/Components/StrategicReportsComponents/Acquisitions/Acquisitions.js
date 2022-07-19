@@ -105,11 +105,11 @@ const Acquisitions = () => {
               <div className="timeline-panel">
                 <div className="timeline-heading">
                   <h5 className="timeline-title">
-                    {t("strategicReports.acquisitions_apr_2021")}
+                    {t("strategicReports.acquisitions_aug_2021")}
                   </h5>
                 </div>
                 <div className="timeline-body">
-                  <p>{t("strategicReports.acquisitions_apr_2021_d")}</p>
+                  <p>{t("strategicReports.acquisitions_aug_2021_d")}</p>
                 </div>
               </div>
             </li>
