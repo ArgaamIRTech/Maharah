@@ -20,7 +20,7 @@ const QuarterlyFinancial = () => {
 
   const optionsBar1 = {
     animation: {
-      duration: 5000,
+      duration: 100,
       easing: "out",
       startup: true,
     },
@@ -58,7 +58,7 @@ const QuarterlyFinancial = () => {
 
   const optionsBar2 = {
     animation: {
-      duration: 5000,
+      duration: 100,
       easing: "out",
       startup: true,
     },
@@ -88,15 +88,15 @@ const QuarterlyFinancial = () => {
   // Net Income
   const data3 = [
     ["Q", "2021", "2020", "change"],
-    ["Q1", 31, 57, 11],
-    ["Q2", 39, 49, 20],
-    ["Q3", 36, 48, 18],
-    ["Q4", 39, 23, 48],
+    ["Q1", 31, 57, 5],
+    ["Q2", 39, 49, 18],
+    ["Q3", 36, 48, 15],
+    ["Q4", 39, 23, 60],
   ];
 
   const optionsBar3 = {
     animation: {
-      duration: 5000,
+      duration: 100,
       easing: "out",
       startup: true,
     },

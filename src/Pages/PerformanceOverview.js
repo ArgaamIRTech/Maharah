@@ -20,12 +20,8 @@ const PerformanceOverview = () => {
         <div
           className={i18n.language === "en" ? "main-title" : "main-title-ar"}
         >
-          <h1 data-aos="zoom-in" data-aos-duration="1500">
-            {t("performanceOverview.fTitle")}
-          </h1>
-          <h5 data-aos="zoom-in" data-aos-duration="1500">
-            {t("performanceOverview.sTitle")}
-          </h5>
+          <h1>{t("performanceOverview.fTitle")}</h1>
+          <h5>{t("performanceOverview.sTitle")}</h5>
         </div>
         <div className="center-btn">
           <LinkScroll
@@ -77,7 +73,7 @@ const PerformanceOverview = () => {
         <div className="s-div position-relative">
           <a className="h2" href="/StrategicReports">
             {t("footer.section_2")}
-            <i className="bi bi-caret-right-fill fs-6"></i>
+            <p className="fs-2">{t("header.strategicReports")}</p>
           </a>
         </div>
       </div>

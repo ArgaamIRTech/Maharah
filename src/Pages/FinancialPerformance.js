@@ -19,12 +19,8 @@ const FinancialPerformance = () => {
         <div
           className={i18n.language === "en" ? "main-title" : "main-title-ar"}
         >
-          <h1 data-aos="zoom-in" data-aos-duration="1500">
-            {t("financial_performance.financial_performance_t_1")}
-          </h1>
-          <h5 data-aos="zoom-in" data-aos-duration="1500">
-            {t("financial_performance.financial_performance_t_2")}
-          </h5>
+          <h1>{t("financial_performance.financial_performance_t_1")}</h1>
+          <h5>{t("financial_performance.financial_performance_t_2")}</h5>
         </div>
 
         <div className="center-btn">
@@ -76,7 +72,7 @@ const FinancialPerformance = () => {
         <div className="s-div position-relative">
           <a className="h2" href="/DownloadCenter">
             {t("footer.section_2")}
-            <i className="bi bi-caret-right-fill fs-6"></i>
+            <p className="fs-2">{t("header.downloadCenter")}</p>
           </a>
         </div>
       </div>

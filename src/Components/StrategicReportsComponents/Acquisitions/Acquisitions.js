@@ -23,32 +23,32 @@ const Acquisitions = () => {
         className={
           i18n.language === "en" ? "spectra-support" : "spectra-support-ar"
         }
-      >
-        <div className="cu-h1" data-aos="zoom-in" data-aos-duration="2000">
-          <CountUp start={0} end={90} suffix={"%"} duration={1}>
-            {({ countUpRef, start }) => (
-              <ReactVisibilitySensor onChange={start}>
-                <span ref={countUpRef}></span>
-              </ReactVisibilitySensor>
-            )}
-          </CountUp>
-        </div>
-        <p>{t("strategicReports.acquisitions_ls_t_1")}</p>
-        <div className="cus-h2">
-          {t("strategicReports.acquisitions_ls_t_2")}
-        </div>
-      </div>
+      ></div>
 
       <div className="path">
+        {/* Title */}
+        <div className="cus-bac-sec">
+          <div className="cu-h1">
+            <CountUp start={0} end={90} suffix={"%"} duration={1}>
+              {({ countUpRef, start }) => (
+                <ReactVisibilitySensor onChange={start}>
+                  <span ref={countUpRef}></span>
+                </ReactVisibilitySensor>
+              )}
+            </CountUp>
+          </div>
+          <p className="fs-2">
+            {t("strategicReports.acquisitions_ls_t_1")}{" "}
+            {t("strategicReports.acquisitions_ls_t_2")}
+          </p>
+        </div>
+        {/* Title */}
         <div className="container-lg">
           <ul className="timeline">
             {/* Li Right */}
-            <li
-              className="timeline-inverted mb-4"
-              data-aos="zoom-in"
-              data-aos-duration="1500"
-            >
-              <div className="timeline-badge _2"></div>
+
+            <li data-aos="zoom-in" data-aos-duration="1500">
+              <div className="timeline-badge _9"></div>
               <div className="timeline-panel">
                 <div className="timeline-heading">
                   <h5 className="timeline-title">
@@ -121,28 +121,33 @@ const Acquisitions = () => {
 
       {/* Last Path */}
       <div className="path last-path">
+        {/* Title */}
+        <div className="cus-bac-sec">
+          <div className="cu-h1">
+            <CountUp start={0} end={85} suffix={"%"} duration={1}>
+              {({ countUpRef, start }) => (
+                <ReactVisibilitySensor onChange={start}>
+                  <span ref={countUpRef}></span>
+                </ReactVisibilitySensor>
+              )}
+            </CountUp>
+          </div>
+
+          <p className="fs-2">
+            {t("strategicReports.acquisitions_path_t_1")}{" "}
+            {t("strategicReports.acquisitions_path_t_2")}
+          </p>
+        </div>
+        {/* Title */}
+
         <div className="container-lg">
           <ul className="timeline">
             {/* Li Left */}
-            <li data-aos="zoom-in" data-aos-duration="1500">
-              <div className="cu-h1">
-                <CountUp start={0} end={85} suffix={"%"} duration={1}>
-                  {({ countUpRef, start }) => (
-                    <ReactVisibilitySensor onChange={start}>
-                      <span ref={countUpRef}></span>
-                    </ReactVisibilitySensor>
-                  )}
-                </CountUp>
-              </div>
-              <p>{t("strategicReports.acquisitions_path_t_1")}</p>
-              <div className="cus-h2">
-                {t("strategicReports.acquisitions_path_t_2")}
-              </div>
-            </li>
+            <li data-aos="zoom-in" data-aos-duration="1500"></li>
 
             {/* Li Left */}
             <li data-aos="zoom-in" data-aos-duration="1500">
-              <div className="timeline-badge _9"></div>
+              <div className="timeline-badge _4"></div>
               <div className="timeline-panel">
                 <div className="timeline-heading">
                   <h5 className="timeline-title">
@@ -176,7 +181,7 @@ const Acquisitions = () => {
 
             {/* Li Left */}
             <li data-aos="zoom-in" data-aos-duration="1500">
-              <div className="timeline-badge _9"></div>
+              <div className="timeline-badge _2"></div>
               <div className="timeline-panel">
                 <div className="timeline-heading">
                   <h5 className="timeline-title">
@@ -195,7 +200,7 @@ const Acquisitions = () => {
               data-aos="zoom-in"
               data-aos-duration="1500"
             >
-              <div className="timeline-badge _6"></div>
+              <div className="timeline-badge _3"></div>
               <div className="timeline-panel">
                 <div className="timeline-heading">
                   <h5 className="timeline-title">
@@ -214,9 +219,10 @@ const Acquisitions = () => {
 
       {/* Start Salis  */}
       <div className="salis">
-        <div className="container-lg">
+        <div className="container-fluid">
           <div
-            className="row align-items-center"
+            className="row align-items-center p-3"
+            style={{ background: "rgb(221 221 221 / 16%)" }}
             data-aos="zoom-in"
             data-aos-duration="1500"
           >

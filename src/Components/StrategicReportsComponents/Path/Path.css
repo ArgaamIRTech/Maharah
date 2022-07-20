@@ -10,8 +10,8 @@
 
 /* Start Time Line */
 .timeline:before {
-  top: 0;
-  bottom: 0;
+  top: 47px;
+  bottom: 79px;
   position: absolute;
   content: " ";
   width: 3px;

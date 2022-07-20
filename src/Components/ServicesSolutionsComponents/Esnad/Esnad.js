@@ -11,7 +11,7 @@ const Esnad = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="esnad">
+    <div className="esnad" style={{ background: "rgb(241 241 241)" }}>
       <div className="h3" data-aos="zoom-in" data-aos-duration="2000">
         {t("servicesSolutions.esnadT")}
       </div>

@@ -67,7 +67,7 @@ const IndividualsSector = () => {
             <div>
               <h2>
                 +{" "}
-                <CountUp start={0} end={500000} separator="," duration={1}>
+                <CountUp start={0} end={50000} separator="," duration={1}>
                   {({ countUpRef, start }) => (
                     <ReactVisibilitySensor onChange={start}>
                       <span ref={countUpRef}></span>

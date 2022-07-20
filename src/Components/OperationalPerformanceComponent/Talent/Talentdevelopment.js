@@ -31,7 +31,7 @@ const Talentdevelopment = () => {
           </div>
 
           <div className=" w-50">
-            <div className="h3">2022</div>
+            <div className="h3">2020</div>
           </div>
         </div>
       </div>

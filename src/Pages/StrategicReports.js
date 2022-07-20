@@ -28,12 +28,8 @@ const StrategicReports = () => {
         <div
           className={i18n.language === "en" ? "main-title" : "main-title-ar"}
         >
-          <h1 data-aos="zoom-in" data-aos-duration="1500">
-            {t("strategicReports.fTitle")}
-          </h1>
-          <h5 data-aos="zoom-in" data-aos-duration="1500">
-            {t("strategicReports.sTitle")}
-          </h5>
+          <h1>{t("strategicReports.fTitle")}</h1>
+          <h5>{t("strategicReports.sTitle")}</h5>
         </div>
         <div className="center-btn">
           <LinkScroll
@@ -92,7 +88,7 @@ const StrategicReports = () => {
         <div className="s-div position-relative">
           <a className="h2" href="/ServicesSolutions">
             {t("footer.section_2")}
-            <i className="bi bi-caret-right-fill fs-6"></i>
+            <p className="fs-2">{t("header.servicesSolutions")}</p>
           </a>
         </div>
       </div>
