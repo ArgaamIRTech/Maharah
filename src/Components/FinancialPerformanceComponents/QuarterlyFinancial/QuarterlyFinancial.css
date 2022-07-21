@@ -14,3 +14,24 @@
   margin: 0 65px;
   font-weight: 600;
 }
+
+.quarterly-financial .cust-box-shad {
+  position: relative;
+  overflow: hidden;
+}
+.quarterly-financial .sar-title {
+  position: absolute;
+  left: -40px;
+  z-index: 1;
+  top: 50%;
+  font-size: 22px;
+  transform: rotate(270deg);
+  color: #212529;
+}
+
+@media (max-width: 576px) {
+  .quarterly-financial .sar-title {
+    left: -55px;
+    font-size: 18px;
+  }
+}

@@ -19,12 +19,6 @@ const QuarterlyFinancial = () => {
   ];
 
   const optionsBar1 = {
-    animation: {
-      duration: 100,
-      easing: "out",
-      startup: true,
-    },
-
     vAxis: {
       minValue: 100,
     },
@@ -57,12 +51,6 @@ const QuarterlyFinancial = () => {
   ];
 
   const optionsBar2 = {
-    animation: {
-      duration: 100,
-      easing: "out",
-      startup: true,
-    },
-
     vAxis: {
       minValue: 100,
     },
@@ -87,22 +75,16 @@ const QuarterlyFinancial = () => {
 
   // Net Income
   const data3 = [
-    ["Q", "2021", "2020", "change"],
+    ["Q", "2020", "2021", "change"],
     ["Q1", 31, 57, 5],
-    ["Q2", 39, 49, 18],
+    ["Q2", 39, 49, 16],
     ["Q3", 36, 48, 15],
-    ["Q4", 39, 23, 60],
+    ["Q4", 39, 23, 80],
   ];
 
   const optionsBar3 = {
-    animation: {
-      duration: 100,
-      easing: "out",
-      startup: true,
-    },
-
     vAxis: {
-      minValue: 0,
+      maxValue: 0,
     },
 
     legend: { position: "bottom" },
@@ -121,7 +103,7 @@ const QuarterlyFinancial = () => {
       },
       2: {
         type: "line",
-        targetAxisIndex: 0,
+        targetAxisIndex: 1,
         color: "#D8A115",
       },
     },
@@ -137,9 +119,11 @@ const QuarterlyFinancial = () => {
         {t("financial_performance.quarterly_section_t_1")}
       </div>
 
-      <div className="cust-box-shad">
+      <div className="cust-box-shad" id="revenue">
         <h4> {t("financial_performance.quarterly_section_t_2")}</h4>
-
+        <h6 className="sar-title">
+          {t("financial_performance.growth_rates_text")}
+        </h6>
         <Chart
           chartType="ComboChart"
           width="100%"
@@ -149,9 +133,11 @@ const QuarterlyFinancial = () => {
         />
       </div>
 
-      <div className="cust-box-shad">
+      <div className="cust-box-shad " id="netincome">
         <h4> {t("financial_performance.quarterly_section_t_3")}</h4>
-
+        <h6 className="sar-title">
+          {t("financial_performance.growth_rates_text")}
+        </h6>
         <Chart
           chartType="ComboChart"
           width="100%"
@@ -161,8 +147,11 @@ const QuarterlyFinancial = () => {
         />
       </div>
 
-      <div className="cust-box-shad">
+      <div className="cust-box-shad" id="grossincome">
         <h4> {t("financial_performance.quarterly_section_t_4")}</h4>
+        <h6 className="sar-title">
+          {t("financial_performance.growth_rates_text")}
+        </h6>
         <Chart
           chartType="ComboChart"
           width="100%"
