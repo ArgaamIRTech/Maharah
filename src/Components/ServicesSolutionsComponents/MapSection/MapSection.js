@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 // Import Css File
 import "./MapSection.css";
 // Import Img
-import mapImg from "../../../Assets/servicesSolutions/map.png";
+import mapImgEn from "../../../Assets/servicesSolutions/map.png";
 import mapImgAr from "../../../Assets/servicesSolutions/mapAr.png";
 
 const MapSection = () => {
@@ -15,14 +15,16 @@ const MapSection = () => {
     <div className="map-section">
       <div className="h3">{t("servicesSolutions.mapT")}</div>
 
-      {/* Map En */}
-      <div className={i18n.language === "ar" ? "d-n" : "mab-box"}>
-        <img className="img-fluid" src={mapImg} alt="Map" />
+      <div className={i18n.language === "en" ? "mab-box" : "d-none"}>
+        <img className="img-fluid" src={mapImgEn} alt="Map" />
       </div>
 
-      {/* Map Ar */}
-      <div className={i18n.language === "en" ? "d-n" : "mab-box"}>
+      <div className={i18n.language === "ar" ? "mab-box" : "d-none"}>
         <img className="img-fluid" src={mapImgAr} alt="Map" />
+      </div>
+
+      <div className={i18n.language === "en-US" ? "mab-box" : "d-none"}>
+        <img className="img-fluid" src={mapImgEn} alt="Map" />
       </div>
     </div>
   );

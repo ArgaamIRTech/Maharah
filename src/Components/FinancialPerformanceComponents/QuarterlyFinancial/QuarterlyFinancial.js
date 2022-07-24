@@ -26,7 +26,6 @@ const QuarterlyFinancial = () => {
     legend: { position: "bottom" },
     bar: { groupWidth: "40%" },
     seriesType: "bars",
-
     series: {
       0: {
         type: "bars",

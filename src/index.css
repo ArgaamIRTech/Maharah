@@ -51,10 +51,10 @@ a {
 .main-title .letters-btn:hover {
   background: #a98445;
 }
-.main-title i {
+/* .main-title i {
   font-weight: bold;
   font-size: 35px;
-}
+} */
 .center-btn {
   position: absolute;
   bottom: 40px;
@@ -119,10 +119,10 @@ a {
 /* Media */
 @media (max-width: 767.98px) {
   .main-title h1 {
-    font-size: 35px;
+    font-size: 23px;
   }
   .main-title h5 {
-    font-size: 25px;
+    font-size: 18px;
   }
   .main-title button {
     font-size: 17px;
@@ -131,10 +131,10 @@ a {
     width: 37%;
   }
   .main-title .letters-btn {
-    font-size: 15px;
+    font-size: 12px;
   }
   .center-btn .custom-cunt-btn {
-    font-size: 20px;
+    font-size: 13px;
     position: relative;
     left: -23%;
   }
@@ -200,7 +200,7 @@ a {
   left: 53%;
 }
 
-@media (min-width: 360.98px) and (max-width: 767.98px) {
+@media (min-width: 310.98px) and (max-width: 767.98px) {
   .footer {
     justify-content: space-around;
     padding: 20px 0;
@@ -212,19 +212,18 @@ a {
   .footer .edit-lh .h2,
   .footer .s-div .h2 {
     margin: 0;
-    font-size: 17px;
+    font-size: 13px;
   }
   .footer .edit-lh p,
   .footer .s-div p {
-    font-size: 11px;
+    font-size: 11px !important;
   }
   .footer img {
     margin: 10px;
-    height: 25px;
+    height: 35px;
   }
   .footer .f-div::before {
-    top: 16%;
-    height: 60px;
+    display: none;
   }
 }
 
@@ -275,10 +274,10 @@ a {
 }
 @media (min-width: 300px) and (max-width: 580.98px) {
   .home-page .home-title .h1 {
-    font-size: 25px;
+    font-size: 23px;
   }
   .home-page .navbar-brand img {
-    height: 90px;
+    height: 70px;
   }
   .home-page .home-title-ar {
     width: fit-content;
@@ -555,5 +554,145 @@ a {
 
   .download-center .download-section {
     padding-top: 1100px;
+  }
+}
+
+.turnover-rate {
+  overflow: hidden !important;
+}
+
+/* Responsive */
+@media (min-width: 310.98px) and (max-width: 767.98px) {
+  .performance-overview .financial-section .h1,
+  .strategic-reports .report-section .h1,
+  .services-solutions .services-sector .h1,
+  .operation-performance .op-section .h1,
+  .sustainability-social .sust-section .h1,
+  .financial-performance .financial-section .h1,
+  .download-center .download-section .h1 {
+    font-size: 23px;
+  }
+  .h2,
+  .h2 {
+    width: 100% !important;
+  }
+  .financial-indicators .rev-info img {
+    margin: 19px !important;
+  }
+  .operational-performance .all-h {
+    font-size: 50px !important;
+  }
+
+  .timeline-title {
+    font-size: 13px;
+  }
+
+  /*  */
+  .vision {
+    padding: 20px 0 !important;
+  }
+  .vision .card img,
+  .approach img {
+    width: 45px !important;
+    height: 45px !important;
+  }
+  .vision .card .card-title {
+    font-size: 20px !important;
+  }
+  .timeline-body p {
+    font-size: 13px;
+  }
+
+  .operational-model .nav-pills .nav-link {
+    font-size: 10px !important;
+  }
+  .operational-model p {
+    font-size: 10px !important;
+  }
+  .operational-model img {
+    width: 30px !important;
+    margin: 0 !important;
+  }
+
+  .operational-model i {
+    font-size: 5px !important;
+    margin: 0 !important;
+  }
+  .strategic-potentials .poten-box h5 {
+    font-size: 12px;
+  }
+
+  /*  */
+  .map-section .h3 {
+    font-size: 23px !important;
+    padding: 10px !important;
+  }
+
+  .corporate-cector .manpower p {
+    font-size: 17px !important;
+  }
+
+  .esnad {
+    padding: 100px 15px;
+  }
+
+  .main-activities .h2 {
+    font-size: 16px;
+    padding: 9px;
+  }
+
+  .all-values .values-box h3 {
+    font-size: 40px !important;
+  }
+  .policy-commitment {
+    padding: 100px 9px;
+  }
+
+  .download-center .box-down h5 {
+    font-size: 15px;
+  }
+  .download-center .box-down {
+    padding: 6px;
+  }
+  .subsidiaries .box-tab-info img {
+    height: 35px;
+  }
+  .individuals-sector .khidma h2 {
+    font-size: 35px !important;
+  }
+  .main-activities .h2 {
+    width: 87% !important;
+  }
+
+  .financial-indicators .rev-info p {
+    font-size: 15px !important;
+  }
+  .main-title-ar .letters-btn {
+    font-size: 9px;
+  }
+  .main-title-ar i {
+    font-size: 16px;
+  }
+
+  .main-title-ar h1 {
+    font-size: 20px;
+  }
+  .main-title-ar h5 {
+    font-size: 14px;
+  }
+
+  .competencies h5 {
+    font-size: 15px;
+  }
+
+  .access-customers h6 {
+    font-size: 16px;
+  }
+  .competencies .box-competencies {
+    padding: 10px !important;
+  }
+  .competencies .box-competencies img {
+    margin: 0 7px !important;
+    width: 15px !important;
   }
 }

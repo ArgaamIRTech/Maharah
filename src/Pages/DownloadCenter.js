@@ -67,28 +67,8 @@ const DownloadCenter = () => {
           {/* ////////////////////////////////////////////////////// */}
 
           {/* Start PDF Section En */}
-          <div className={i18n.language === "ar" ? "d-n" : "cus-p-dow"}>
+          <div className={i18n.language === "en" ? "cus-p-dow" : "d-none"}>
             <div className="row">
-              <div
-                className="col-md-4 col-xs-6"
-                data-aos="zoom-in"
-                data-aos-duration="2000"
-              >
-                <div className="box-down">
-                  <div className="down-info d-flex justify-content-between align-items-center">
-                    <h5>
-                      <i className="bi bi-file-earmark-pdf-fill"></i>
-                      Financial Performance
-                    </h5>
-                    {/* Link */}
-                    <Link to={FinancialPerformancePdf} target="_blank" download>
-                      <i className="bi bi-file-earmark-arrow-down-fill"></i>
-                    </Link>
-                    {/* Link */}
-                  </div>
-                </div>
-              </div>
-
               <div
                 className="col-md-4 col-xs-6"
                 data-aos="zoom-in"
@@ -112,30 +92,6 @@ const DownloadCenter = () => {
               <div
                 className="col-md-4 col-xs-6"
                 data-aos="zoom-in"
-                data-aos-duration="2000"
-              >
-                <div className="box-down">
-                  <div className="down-info d-flex justify-content-between align-items-center">
-                    <h5>
-                      <i className="bi bi-file-earmark-pdf-fill"></i>
-                      Operational Performance
-                    </h5>
-                    {/* Link */}
-                    <Link
-                      to={OperationalPerformancePdf}
-                      target="_blank"
-                      download
-                    >
-                      <i className="bi bi-file-earmark-arrow-down-fill"></i>
-                    </Link>
-                    {/* Link */}
-                  </div>
-                </div>
-              </div>
-
-              <div
-                className="col-md-4 col-xs-6"
-                data-aos="zoom-in"
                 data-aos-duration="3000"
               >
                 <div className="box-down">
@@ -146,26 +102,6 @@ const DownloadCenter = () => {
                     </h5>
                     {/* Link */}
                     <Link to={PerformanceOverviewPdf} target="_blank" download>
-                      <i className="bi bi-file-earmark-arrow-down-fill"></i>
-                    </Link>
-                    {/* Link */}
-                  </div>
-                </div>
-              </div>
-
-              <div
-                className="col-md-4 col-xs-6"
-                data-aos="zoom-in"
-                data-aos-duration="2000"
-              >
-                <div className="box-down">
-                  <div className="down-info d-flex justify-content-between align-items-center">
-                    <h5>
-                      <i className="bi bi-file-earmark-pdf-fill"></i>
-                      Services Solutions
-                    </h5>
-                    {/* Link */}
-                    <Link to={ServicesSolutionsPdf} target="_blank" download>
                       <i className="bi bi-file-earmark-arrow-down-fill"></i>
                     </Link>
                     {/* Link */}
@@ -202,6 +138,50 @@ const DownloadCenter = () => {
                   <div className="down-info d-flex justify-content-between align-items-center">
                     <h5>
                       <i className="bi bi-file-earmark-pdf-fill"></i>
+                      Services Solutions
+                    </h5>
+                    {/* Link */}
+                    <Link to={ServicesSolutionsPdf} target="_blank" download>
+                      <i className="bi bi-file-earmark-arrow-down-fill"></i>
+                    </Link>
+                    {/* Link */}
+                  </div>
+                </div>
+              </div>
+
+              <div
+                className="col-md-4 col-xs-6"
+                data-aos="zoom-in"
+                data-aos-duration="2000"
+              >
+                <div className="box-down">
+                  <div className="down-info d-flex justify-content-between align-items-center">
+                    <h5>
+                      <i className="bi bi-file-earmark-pdf-fill"></i>
+                      Operational Performance
+                    </h5>
+                    {/* Link */}
+                    <Link
+                      to={OperationalPerformancePdf}
+                      target="_blank"
+                      download
+                    >
+                      <i className="bi bi-file-earmark-arrow-down-fill"></i>
+                    </Link>
+                    {/* Link */}
+                  </div>
+                </div>
+              </div>
+
+              <div
+                className="col-md-4 col-xs-6"
+                data-aos="zoom-in"
+                data-aos-duration="2000"
+              >
+                <div className="box-down">
+                  <div className="down-info d-flex justify-content-between align-items-center">
+                    <h5>
+                      <i className="bi bi-file-earmark-pdf-fill"></i>
                       Sustainability SocialImpact
                     </h5>
                     {/* Link */}
@@ -216,13 +196,7 @@ const DownloadCenter = () => {
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-          {/* End PDF Section En */}
 
-          {/* Start PDF Section AR */}
-          <div className={i18n.language === "en" ? "d-n" : "cus-p-dow"}>
-            <div className="row">
               <div
                 className="col-md-4 col-xs-6"
                 data-aos="zoom-in"
@@ -232,21 +206,23 @@ const DownloadCenter = () => {
                   <div className="down-info d-flex justify-content-between align-items-center">
                     <h5>
                       <i className="bi bi-file-earmark-pdf-fill"></i>
-                      الأداء المالي
+                      Financial Performance
                     </h5>
                     {/* Link */}
-                    <Link
-                      to={FinancialPerformanceArPdf}
-                      target="_blank"
-                      download
-                    >
+                    <Link to={FinancialPerformancePdf} target="_blank" download>
                       <i className="bi bi-file-earmark-arrow-down-fill"></i>
                     </Link>
                     {/* Link */}
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+          {/* End PDF Section En */}
 
+          {/* Start PDF Section AR */}
+          <div className={i18n.language === "ar" ? "cus-p-dow" : "d-none"}>
+            <div className="row">
               <div
                 className="col-md-4 col-xs-6"
                 data-aos="zoom-in"
@@ -260,30 +236,6 @@ const DownloadCenter = () => {
                     </h5>
                     {/* Link */}
                     <Link to={ManagementLettersArPdf} target="_blank" download>
-                      <i className="bi bi-file-earmark-arrow-down-fill"></i>
-                    </Link>
-                    {/* Link */}
-                  </div>
-                </div>
-              </div>
-
-              <div
-                className="col-md-4 col-xs-6"
-                data-aos="zoom-in"
-                data-aos-duration="2000"
-              >
-                <div className="box-down">
-                  <div className="down-info d-flex justify-content-between align-items-center">
-                    <h5>
-                      <i className="bi bi-file-earmark-pdf-fill"></i>
-                      أداؤنا التشغيلي
-                    </h5>
-                    {/* Link */}
-                    <Link
-                      to={OperationalPerformanceArPdf}
-                      target="_blank"
-                      download
-                    >
                       <i className="bi bi-file-earmark-arrow-down-fill"></i>
                     </Link>
                     {/* Link */}
@@ -308,26 +260,6 @@ const DownloadCenter = () => {
                       target="_blank"
                       download
                     >
-                      <i className="bi bi-file-earmark-arrow-down-fill"></i>
-                    </Link>
-                    {/* Link */}
-                  </div>
-                </div>
-              </div>
-
-              <div
-                className="col-md-4 col-xs-6"
-                data-aos="zoom-in"
-                data-aos-duration="2000"
-              >
-                <div className="box-down">
-                  <div className="down-info d-flex justify-content-between align-items-center">
-                    <h5>
-                      <i className="bi bi-file-earmark-pdf-fill"></i>
-                      الخــدمات والحــلول
-                    </h5>
-                    {/* Link */}
-                    <Link to={ServicesSolutionsArPdf} target="_blank" download>
                       <i className="bi bi-file-earmark-arrow-down-fill"></i>
                     </Link>
                     {/* Link */}
@@ -364,6 +296,50 @@ const DownloadCenter = () => {
                   <div className="down-info d-flex justify-content-between align-items-center">
                     <h5>
                       <i className="bi bi-file-earmark-pdf-fill"></i>
+                      الخــدمات والحــلول
+                    </h5>
+                    {/* Link */}
+                    <Link to={ServicesSolutionsArPdf} target="_blank" download>
+                      <i className="bi bi-file-earmark-arrow-down-fill"></i>
+                    </Link>
+                    {/* Link */}
+                  </div>
+                </div>
+              </div>
+
+              <div
+                className="col-md-4 col-xs-6"
+                data-aos="zoom-in"
+                data-aos-duration="2000"
+              >
+                <div className="box-down">
+                  <div className="down-info d-flex justify-content-between align-items-center">
+                    <h5>
+                      <i className="bi bi-file-earmark-pdf-fill"></i>
+                      أداؤنا التشغيلي
+                    </h5>
+                    {/* Link */}
+                    <Link
+                      to={OperationalPerformanceArPdf}
+                      target="_blank"
+                      download
+                    >
+                      <i className="bi bi-file-earmark-arrow-down-fill"></i>
+                    </Link>
+                    {/* Link */}
+                  </div>
+                </div>
+              </div>
+
+              <div
+                className="col-md-4 col-xs-6"
+                data-aos="zoom-in"
+                data-aos-duration="2000"
+              >
+                <div className="box-down">
+                  <div className="down-info d-flex justify-content-between align-items-center">
+                    <h5>
+                      <i className="bi bi-file-earmark-pdf-fill"></i>
                       الاستدامة والأثر الاجتماعي
                     </h5>
                     {/* Link */}
@@ -378,9 +354,187 @@ const DownloadCenter = () => {
                   </div>
                 </div>
               </div>
+
+              <div
+                className="col-md-4 col-xs-6"
+                data-aos="zoom-in"
+                data-aos-duration="2000"
+              >
+                <div className="box-down">
+                  <div className="down-info d-flex justify-content-between align-items-center">
+                    <h5>
+                      <i className="bi bi-file-earmark-pdf-fill"></i>
+                      الأداء المالي
+                    </h5>
+                    {/* Link */}
+                    <Link
+                      to={FinancialPerformanceArPdf}
+                      target="_blank"
+                      download
+                    >
+                      <i className="bi bi-file-earmark-arrow-down-fill"></i>
+                    </Link>
+                    {/* Link */}
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           {/* End PDF Section AR */}
+
+          {/* Start PDF Section En-US */}
+          <div className={i18n.language === "en-US" ? "cus-p-dow" : "d-none"}>
+            <div className="row">
+              <div
+                className="col-md-4 col-xs-6"
+                data-aos="zoom-in"
+                data-aos-duration="3000"
+              >
+                <div className="box-down">
+                  <div className="down-info d-flex justify-content-between align-items-center">
+                    <h5>
+                      <i className="bi bi-file-earmark-pdf-fill"></i>
+                      Management Letters
+                    </h5>
+                    {/* Link */}
+                    <Link to={ManagementLettersPdf} target="_blank" download>
+                      <i className="bi bi-file-earmark-arrow-down-fill"></i>
+                    </Link>
+                    {/* Link */}
+                  </div>
+                </div>
+              </div>
+
+              <div
+                className="col-md-4 col-xs-6"
+                data-aos="zoom-in"
+                data-aos-duration="3000"
+              >
+                <div className="box-down">
+                  <div className="down-info d-flex justify-content-between align-items-center">
+                    <h5>
+                      <i className="bi bi-file-earmark-pdf-fill"></i>
+                      Performance Overview
+                    </h5>
+                    {/* Link */}
+                    <Link to={PerformanceOverviewPdf} target="_blank" download>
+                      <i className="bi bi-file-earmark-arrow-down-fill"></i>
+                    </Link>
+                    {/* Link */}
+                  </div>
+                </div>
+              </div>
+
+              <div
+                className="col-md-4 col-xs-6"
+                data-aos="zoom-in"
+                data-aos-duration="3000"
+              >
+                <div className="box-down">
+                  <div className="down-info d-flex justify-content-between align-items-center">
+                    <h5>
+                      <i className="bi bi-file-earmark-pdf-fill"></i>
+                      Strategic Reports
+                    </h5>
+                    {/* Link */}
+                    <Link to={StrategicReportsPdf} target="_blank" download>
+                      <i className="bi bi-file-earmark-arrow-down-fill"></i>
+                    </Link>
+                    {/* Link */}
+                  </div>
+                </div>
+              </div>
+
+              <div
+                className="col-md-4 col-xs-6"
+                data-aos="zoom-in"
+                data-aos-duration="2000"
+              >
+                <div className="box-down">
+                  <div className="down-info d-flex justify-content-between align-items-center">
+                    <h5>
+                      <i className="bi bi-file-earmark-pdf-fill"></i>
+                      Services Solutions
+                    </h5>
+                    {/* Link */}
+                    <Link to={ServicesSolutionsPdf} target="_blank" download>
+                      <i className="bi bi-file-earmark-arrow-down-fill"></i>
+                    </Link>
+                    {/* Link */}
+                  </div>
+                </div>
+              </div>
+
+              <div
+                className="col-md-4 col-xs-6"
+                data-aos="zoom-in"
+                data-aos-duration="2000"
+              >
+                <div className="box-down">
+                  <div className="down-info d-flex justify-content-between align-items-center">
+                    <h5>
+                      <i className="bi bi-file-earmark-pdf-fill"></i>
+                      Operational Performance
+                    </h5>
+                    {/* Link */}
+                    <Link
+                      to={OperationalPerformancePdf}
+                      target="_blank"
+                      download
+                    >
+                      <i className="bi bi-file-earmark-arrow-down-fill"></i>
+                    </Link>
+                    {/* Link */}
+                  </div>
+                </div>
+              </div>
+
+              <div
+                className="col-md-4 col-xs-6"
+                data-aos="zoom-in"
+                data-aos-duration="2000"
+              >
+                <div className="box-down">
+                  <div className="down-info d-flex justify-content-between align-items-center">
+                    <h5>
+                      <i className="bi bi-file-earmark-pdf-fill"></i>
+                      Sustainability SocialImpact
+                    </h5>
+                    {/* Link */}
+                    <Link
+                      to={SustainabilitySocialImpactPdf}
+                      target="_blank"
+                      download
+                    >
+                      <i className="bi bi-file-earmark-arrow-down-fill"></i>
+                    </Link>
+                    {/* Link */}
+                  </div>
+                </div>
+              </div>
+
+              <div
+                className="col-md-4 col-xs-6"
+                data-aos="zoom-in"
+                data-aos-duration="2000"
+              >
+                <div className="box-down">
+                  <div className="down-info d-flex justify-content-between align-items-center">
+                    <h5>
+                      <i className="bi bi-file-earmark-pdf-fill"></i>
+                      Financial Performance
+                    </h5>
+                    {/* Link */}
+                    <Link to={FinancialPerformancePdf} target="_blank" download>
+                      <i className="bi bi-file-earmark-arrow-down-fill"></i>
+                    </Link>
+                    {/* Link */}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* End PDF Section En-US */}
         </div>
       </div>
 
@@ -393,7 +547,7 @@ const DownloadCenter = () => {
               <Link className="h2" to={FullPdf} target="_blank" download>
                 {t("footer.section_1")}
               </Link>
-              <p>Full Report</p>
+              <p>{t("footer.section_4")}</p>
             </div>
           </div>
         </div>

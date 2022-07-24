@@ -38,12 +38,6 @@ const TurnoverRate = () => {
       color: "#D8A115",
     },
 
-    animation: {
-      duration: 4000,
-      easing: "out",
-      startup: true,
-    },
-
     bars: "horizontal",
     bar: { groupWidth: "70%" },
     legend: { position: "none" },

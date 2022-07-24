@@ -109,9 +109,9 @@
     "mission": "Mission",
     "values": "Values",
 
-    "vision_p": "Leading the human resources sector by providing comprehensive & integrated solutions that ensure our customers’ success, protect employees’ rights, and support the national development",
+    "vision_p": "Leading the human resources sector by providing comprehensive & integrated solutions that ensure our customers’ success, protect employees’ rights and support the national development.",
 
-    "mission_p": "We are working on providing innovative and integrated human resources solutions and services to our customers through institutionalized system, superior IT and strategic partnerships that serve our employees, customers, and community.",
+    "mission_p": "We are working on providing innovative and integrated human resources solutions and services to our customers through institutionalized system, superior IT and strategic partnerships that serve our employees, customers and community.",
 
     "values_p": "Creation and innovation, integrity and transparency, quality and excellence, teamwork spirit, customer centricity.",
 
@@ -173,7 +173,7 @@
     "shareholders": "Shareholders and owners",
 
     "sales": "Sales and relationship Managers",
-    "branchs": "Branchs",
+    "branchs": "Branches",
     "call_centers": "Call Centers",
     "e_channels": "E-channels",
     "tadawul": "Company Announcements on Tadawul",
@@ -205,10 +205,10 @@
     "acquisitions_t": "Acquisitions",
 
     "acquisitions_dec_2020": "Dec 2020",
-    "acquisitions_dec_2020_d": "“Maharah” signs mou with “spectra support services company”(“spectra”) for the acquisition of the majority stakes.",
+    "acquisitions_dec_2020_d": "“Maharah” signs MOU with “spectra support services company”(“Spectra”) for the acquisition of the majority stakes.",
 
     "acquisitions_apr_2021": "Apr 2021",
-    "acquisitions_apr_2021_d": "Signing an spa for the acquisition of 90% of “spectra support services company” (“spectra”)",
+    "acquisitions_apr_2021_d": "Signing an SPA for the acquisition of 90% of “spectra support services company” (“spectra”)",
 
     "acquisitions_aug_2021": "Aug 2021",
     "acquisitions_aug_2021_d": "Completion of the sale and purchase of stakes for the acquisition of 90% of “spectra”",
@@ -223,16 +223,16 @@
     "acquisitions_path_t_2": "Arabian Shifa Medical Co.",
 
     "acquisitions_path_September_1": "September 28, 2021",
-    "acquisitions_path_September_2": "Growth avenue investment company  (“gac”) signs an mou for the acquisition of 85 of the stakes of “arabian shifa medical co.",
+    "acquisitions_path_September_2": "Growth Avenue Investment Company  (“GAC”) signs an mou for the acquisition of 85 of the stakes of “arabian shifa medical co.",
 
     "acquisitions_path_december_1": "December 26, 2021",
-    "acquisitions_path_december_2": "Spa signed for the acquisition of 85% of the ownership stake of “SHIFA”",
+    "acquisitions_path_december_2": "SPA signed for the acquisition of 85% of the ownership stake of “SHIFA”",
 
     "acquisitions_path_january_1": "January 6, 2022",
-    "acquisitions_path_january_2": "(“gac”) receives a no objection statement from the general authority for competition for the completion of economic concentration between both companies.",
+    "acquisitions_path_january_2": "(“GAC”) receives a no objection statement from the general authority for competition for the completion of economic concentration between both companies.",
 
     "acquisitions_path_lsjanuary_1": "January 13, 2022",
-    "acquisitions_path_lsjanuary_2": "Transfer of ownership stakes of 85% of “Arabian Shifa Medical Co.” To “growth avenue investment company” (“gac”)",
+    "acquisitions_path_lsjanuary_2": "Transfer of ownership stakes of 85% of “Arabian Shifa Medical Co.” To “Growth Avenue Investment Company” (“GAC”)",
 
     "salis_p": "Acquisition Of",
     "salis_t": "Salis For Trading & Marketing",
@@ -261,18 +261,18 @@
     "strategic_objectives_b_t_3": "Internal Operations",
     "strategic_objectives_b_t_4": "Learning & Growth",
 
-    "strategic_objectives_financial_1": "Increasing market stake",
-    "strategic_objectives_financial_2": "Developing and diversifying services provided",
+    "strategic_objectives_financial_1": "Increasing market stake.",
+    "strategic_objectives_financial_2": "Developing and diversifying services provided.",
     "strategic_objectives_financial_3": "Achieving growth in returns and dividends.",
 
     "strategic_objectives_customers_1": "Enhancing customer satisfaction, experience and mental image.",
-    "strategic_objectives_customers_2": "Enhancing quality of services provided",
+    "strategic_objectives_customers_2": "Enhancing quality of services provided.",
 
-    "strategic_objectives_internal_1": "Achieving operational excellence",
-    "strategic_objectives_internal_2": "Mitigating strategic and operational risks",
+    "strategic_objectives_internal_1": "Achieving operational excellence.",
+    "strategic_objectives_internal_2": "Mitigating strategic and operational risks.",
 
-    "strategic_objectives_learning_1": "Developing manpower and maintaining the same within an attractive environment",
-    "strategic_objectives_learning_2": "Achieving excellence in digital transformation",
+    "strategic_objectives_learning_1": "Developing manpower and maintaining the same within an attractive environment.",
+    "strategic_objectives_learning_2": "Achieving excellence in digital transformation.",
 
     "subsidiaries_first_title": "Subsidiaries And Associates",
     "subsidiaries_t_1": "Spectra",
@@ -457,7 +457,7 @@
     "op_title_7": "Saudis",
     "op_title_8": "Non-Saudis",
 
-    "turnover_rate_t": "Turnover Rates",
+    "turnover_rate_t": "Turnover Rate",
 
     "competencies_t_1": "Competencies Of Recruitment",
     "competencies_t_2": "Human Capital Transformation Program",
@@ -551,6 +551,7 @@
 
   "footer": {
     "section_1": "Download",
+    "section_4": "Full Report",
     "dic_1": "Current Section PDF File",
     "section_2": "Next Chapter",
     "dic_2": "Performance Overview",
