@@ -2,10 +2,11 @@
   background: url(../../../Assets/report/bg.png);
   background-size: cover;
   background-position: bottom;
-  padding: 100px 0;
+  /* padding: 100px 0; */
 }
 .operational-model h2 {
   color: #415259;
+  padding: 15px;
 }
 .operational-model .nav-pills .nav-link {
   text-align: start;

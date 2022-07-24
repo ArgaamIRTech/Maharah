@@ -4,6 +4,7 @@
 .individuals-sector .h2 {
   border-bottom: 2px solid #a98445;
   width: 40%;
+  padding: 15px;
 }
 .individuals-sector .individ-box img {
   height: 60px;
