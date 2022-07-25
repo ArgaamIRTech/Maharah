@@ -97,7 +97,7 @@ a {
 
   background-color: rgb(112 112 112 / 64%) !important;
   color: #fff;
-  width: 70px;
+  width: 85px;
   padding: 10px;
   text-align: center;
   justify-content: center;
@@ -737,6 +737,6 @@ a {
   /*  */
   .main-title .letters-btn,
   .main-title-ar .letters-btn {
-    width: 100% !important;
+    width: 90% !important;
   }
 }
