@@ -26,14 +26,17 @@ const StrategicReports = () => {
     <div className="strategic-reports">
       <div className="container-fluid">
         <div
-          className={i18n.language === "en" ? "main-title" : "main-title-ar"}
+          className={
+            i18n.language === "en" || i18n.language === "en-US"
+              ? "main-title"
+              : "main-title-ar"
+          }
         >
           <h1>{t("strategicReports.fTitle")}</h1>
           <h5>{t("strategicReports.sTitle")}</h5>
         </div>
         <div className="center-btn">
           <LinkScroll
-            type="button"
             to="report-section"
             className="custom-cunt-btn"
             smooth={true}

@@ -35,7 +35,11 @@ const DownloadCenter = () => {
     <div className="download-center">
       <div className="container-fluid">
         <div
-          className={i18n.language === "en" ? "main-title" : "main-title-ar"}
+          className={
+            i18n.language === "en" || i18n.language === "en-US"
+              ? "main-title"
+              : "main-title-ar"
+          }
         >
           <h1>{t("download_center.download_center_t_1")}</h1>
           <h5>{t("download_center.download_center_t_2")}</h5>
@@ -43,7 +47,6 @@ const DownloadCenter = () => {
 
         <div className="center-btn">
           <LinkScroll
-            type="button"
             to="download-section"
             className="custom-cunt-btn"
             smooth={true}

@@ -23,14 +23,17 @@ const ServicesSolutions = () => {
       <div className="services-sector">
         <div className="container-fluid">
           <div
-            className={i18n.language === "en" ? "main-title" : "main-title-ar"}
+            className={
+              i18n.language === "en" || i18n.language === "en-US"
+                ? "main-title"
+                : "main-title-ar"
+            }
           >
             <h1>{t("servicesSolutions.fTitle")}</h1>
           </div>
 
           <div className="center-btn">
             <LinkScroll
-              type="button"
               to="services-move"
               className="custom-cunt-btn"
               smooth={true}

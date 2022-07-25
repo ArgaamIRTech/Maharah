@@ -19,12 +19,15 @@ const ManagementLetters = () => {
     <div className="management-letters">
       <div className="container-fluid">
         <div
-          className={i18n.language === "en" ? "main-title" : "main-title-ar"}
+          className={
+            i18n.language === "en" || i18n.language === "en-US"
+              ? "main-title"
+              : "main-title-ar"
+          }
         >
           <h1>{t("managementLettersPage.fTitle")}</h1>
           <h5>{t("managementLettersPage.sTitle")}</h5>
           <LinkScroll
-            type="button"
             className="letters-btn"
             to="chairman"
             smooth={true}
@@ -37,7 +40,6 @@ const ManagementLetters = () => {
             </div>
           </LinkScroll>
           <LinkScroll
-            type="button"
             className="letters-btn"
             to="chief"
             smooth={true}
