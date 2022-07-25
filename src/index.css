@@ -97,7 +97,7 @@ a {
 
   background-color: rgb(112 112 112 / 64%) !important;
   color: #fff;
-  width: 100px;
+  width: 70px;
   padding: 10px;
   text-align: center;
   justify-content: center;
@@ -107,7 +107,7 @@ a {
   border-radius: 65px;
   font-weight: 800;
   cursor: pointer;
-  display: flex;
+  display: block;
 }
 
 /* Main Title Arabic */
