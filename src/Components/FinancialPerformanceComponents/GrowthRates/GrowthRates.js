@@ -47,7 +47,13 @@ const GrowthRates = () => {
           <div className="groth-box-1">
             <h5>{t("financial_performance.growth_rates_s_t_3")}</h5>
             <div className="h3">
-              <CountUp start={0} end={14063} separator={"."} duration={1}>
+              <CountUp
+                start={0}
+                end={140.63}
+                separator={"."}
+                duration={1}
+                decimals={2}
+              >
                 {({ countUpRef, start }) => (
                   <ReactVisibilitySensor onChange={start}>
                     <span ref={countUpRef}></span>

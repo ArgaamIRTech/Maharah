@@ -739,4 +739,22 @@ a {
   .main-title-ar .letters-btn {
     width: 90% !important;
   }
+
+  /*  */
+
+  .home-page .home-title-ar,
+  .home-page .home-title {
+    left: 17px;
+    width: 286px !important;
+    padding: 40px 20px;
+  }
+  .home-page .home-title,
+  .home-page .home-title-ar {
+    bottom: 20% !important;
+  }
+  .home-page .home-title .h1,
+  .home-page .home-title-ar .h1 {
+    font-size: 21px;
+    line-height: 1.3;
+  }
 }

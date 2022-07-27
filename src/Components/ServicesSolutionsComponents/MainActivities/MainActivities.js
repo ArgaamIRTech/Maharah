@@ -27,6 +27,7 @@ export const options = {
   // is3D: true,
   legend: "none",
   titlePosition: "none",
+  tooltip: { trigger: "none" },
   slices: {
     0: { color: "#A98445" },
     1: { color: "#59676B" },
