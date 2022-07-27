@@ -75,7 +75,7 @@ const DownloadCenter = () => {
               <div
                 className="col-md-4 col-xs-6"
                 data-aos="zoom-in"
-                data-aos-duration="3000"
+                data-aos-duration="1000"
               >
                 <div className="box-down">
                   <div className="down-info d-flex justify-content-between align-items-center">
@@ -95,7 +95,7 @@ const DownloadCenter = () => {
               <div
                 className="col-md-4 col-xs-6"
                 data-aos="zoom-in"
-                data-aos-duration="3000"
+                data-aos-duration="1000"
               >
                 <div className="box-down">
                   <div className="down-info d-flex justify-content-between align-items-center">
@@ -115,7 +115,7 @@ const DownloadCenter = () => {
               <div
                 className="col-md-4 col-xs-6"
                 data-aos="zoom-in"
-                data-aos-duration="3000"
+                data-aos-duration="1000"
               >
                 <div className="box-down">
                   <div className="down-info d-flex justify-content-between align-items-center">
@@ -135,7 +135,7 @@ const DownloadCenter = () => {
               <div
                 className="col-md-4 col-xs-6"
                 data-aos="zoom-in"
-                data-aos-duration="2000"
+                data-aos-duration="1000"
               >
                 <div className="box-down">
                   <div className="down-info d-flex justify-content-between align-items-center">
@@ -155,7 +155,7 @@ const DownloadCenter = () => {
               <div
                 className="col-md-4 col-xs-6"
                 data-aos="zoom-in"
-                data-aos-duration="2000"
+                data-aos-duration="1000"
               >
                 <div className="box-down">
                   <div className="down-info d-flex justify-content-between align-items-center">
@@ -179,7 +179,7 @@ const DownloadCenter = () => {
               <div
                 className="col-md-4 col-xs-6"
                 data-aos="zoom-in"
-                data-aos-duration="2000"
+                data-aos-duration="1000"
               >
                 <div className="box-down">
                   <div className="down-info d-flex justify-content-between align-items-center">
@@ -203,7 +203,7 @@ const DownloadCenter = () => {
               <div
                 className="col-md-4 col-xs-6"
                 data-aos="zoom-in"
-                data-aos-duration="2000"
+                data-aos-duration="1000"
               >
                 <div className="box-down">
                   <div className="down-info d-flex justify-content-between align-items-center">
@@ -229,7 +229,7 @@ const DownloadCenter = () => {
               <div
                 className="col-md-4 col-xs-6"
                 data-aos="zoom-in"
-                data-aos-duration="3000"
+                data-aos-duration="1000"
               >
                 <div className="box-down">
                   <div className="down-info d-flex justify-content-between align-items-center">
@@ -249,7 +249,7 @@ const DownloadCenter = () => {
               <div
                 className="col-md-4 col-xs-6"
                 data-aos="zoom-in"
-                data-aos-duration="3000"
+                data-aos-duration="1000"
               >
                 <div className="box-down">
                   <div className="down-info d-flex justify-content-between align-items-center">
@@ -273,7 +273,7 @@ const DownloadCenter = () => {
               <div
                 className="col-md-4 col-xs-6"
                 data-aos="zoom-in"
-                data-aos-duration="3000"
+                data-aos-duration="1000"
               >
                 <div className="box-down">
                   <div className="down-info d-flex justify-content-between align-items-center">
@@ -293,7 +293,7 @@ const DownloadCenter = () => {
               <div
                 className="col-md-4 col-xs-6"
                 data-aos="zoom-in"
-                data-aos-duration="2000"
+                data-aos-duration="1000"
               >
                 <div className="box-down">
                   <div className="down-info d-flex justify-content-between align-items-center">
@@ -313,7 +313,7 @@ const DownloadCenter = () => {
               <div
                 className="col-md-4 col-xs-6"
                 data-aos="zoom-in"
-                data-aos-duration="2000"
+                data-aos-duration="1000"
               >
                 <div className="box-down">
                   <div className="down-info d-flex justify-content-between align-items-center">
@@ -337,7 +337,7 @@ const DownloadCenter = () => {
               <div
                 className="col-md-4 col-xs-6"
                 data-aos="zoom-in"
-                data-aos-duration="2000"
+                data-aos-duration="1000"
               >
                 <div className="box-down">
                   <div className="down-info d-flex justify-content-between align-items-center">
@@ -361,7 +361,7 @@ const DownloadCenter = () => {
               <div
                 className="col-md-4 col-xs-6"
                 data-aos="zoom-in"
-                data-aos-duration="2000"
+                data-aos-duration="1000"
               >
                 <div className="box-down">
                   <div className="down-info d-flex justify-content-between align-items-center">
@@ -391,7 +391,7 @@ const DownloadCenter = () => {
               <div
                 className="col-md-4 col-xs-6"
                 data-aos="zoom-in"
-                data-aos-duration="3000"
+                data-aos-duration="1000"
               >
                 <div className="box-down">
                   <div className="down-info d-flex justify-content-between align-items-center">
@@ -411,7 +411,7 @@ const DownloadCenter = () => {
               <div
                 className="col-md-4 col-xs-6"
                 data-aos="zoom-in"
-                data-aos-duration="3000"
+                data-aos-duration="1000"
               >
                 <div className="box-down">
                   <div className="down-info d-flex justify-content-between align-items-center">
@@ -431,7 +431,7 @@ const DownloadCenter = () => {
               <div
                 className="col-md-4 col-xs-6"
                 data-aos="zoom-in"
-                data-aos-duration="3000"
+                data-aos-duration="1000"
               >
                 <div className="box-down">
                   <div className="down-info d-flex justify-content-between align-items-center">
@@ -451,7 +451,7 @@ const DownloadCenter = () => {
               <div
                 className="col-md-4 col-xs-6"
                 data-aos="zoom-in"
-                data-aos-duration="2000"
+                data-aos-duration="1000"
               >
                 <div className="box-down">
                   <div className="down-info d-flex justify-content-between align-items-center">
@@ -471,7 +471,7 @@ const DownloadCenter = () => {
               <div
                 className="col-md-4 col-xs-6"
                 data-aos="zoom-in"
-                data-aos-duration="2000"
+                data-aos-duration="1000"
               >
                 <div className="box-down">
                   <div className="down-info d-flex justify-content-between align-items-center">
@@ -495,7 +495,7 @@ const DownloadCenter = () => {
               <div
                 className="col-md-4 col-xs-6"
                 data-aos="zoom-in"
-                data-aos-duration="2000"
+                data-aos-duration="1000"
               >
                 <div className="box-down">
                   <div className="down-info d-flex justify-content-between align-items-center">
@@ -519,7 +519,7 @@ const DownloadCenter = () => {
               <div
                 className="col-md-4 col-xs-6"
                 data-aos="zoom-in"
-                data-aos-duration="2000"
+                data-aos-duration="1000"
               >
                 <div className="box-down">
                   <div className="down-info d-flex justify-content-between align-items-center">

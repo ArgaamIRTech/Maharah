@@ -532,7 +532,7 @@ a {
 
 /* Sart Box Download */
 .download-center .box-down {
-  padding: 20px;
+  padding: 15px;
   box-shadow: 0 1px 4px 0px #bfb6b6;
   border-radius: 5px;
   margin-bottom: 20px;
@@ -542,7 +542,7 @@ a {
   background: #ddd;
 }
 .download-center .box-down h5 {
-  font-size: 20px;
+  font-size: 19px;
 }
 .download-center .box-down .bi-file-earmark-pdf-fill {
   margin: 10px;

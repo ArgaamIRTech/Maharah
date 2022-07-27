@@ -23,7 +23,7 @@
   background: #fff;
   color: #707070;
   margin-bottom: 20px;
-  font-size: 20px;
+  font-size: 18px;
   border-radius: 15px 0 20px 15px;
   padding: 15px;
   font-weight: 500;
@@ -79,6 +79,7 @@
   }
   .menu-icon .section-links .nav-link {
     font-size: 13px;
+    padding: 9px;
   }
   .menu-icon .section-links .nav-link i {
     margin: 0;

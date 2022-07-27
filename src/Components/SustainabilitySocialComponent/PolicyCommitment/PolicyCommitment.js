@@ -27,7 +27,7 @@ const PolicyCommitment = () => {
             <div
               className="d-flex align-items-start box-competencies"
               data-aos="zoom-in"
-              data-aos-duration="3000"
+              data-aos-duration="1000"
             >
               <img src={img_icon_1} alt="icon" />
               <h5>{t("sustainability.policy_commitment_t_1")}</h5>
@@ -38,7 +38,7 @@ const PolicyCommitment = () => {
             <div
               className="d-flex align-items-start box-competencies"
               data-aos="zoom-in"
-              data-aos-duration="3000"
+              data-aos-duration="1000"
             >
               <img src={img_icon_2} alt="icon" />
               <h5>{t("sustainability.policy_commitment_t_2")}</h5>
@@ -49,7 +49,7 @@ const PolicyCommitment = () => {
             <div
               className="d-flex align-items-start box-competencies"
               data-aos="zoom-in"
-              data-aos-duration="3000"
+              data-aos-duration="1000"
             >
               <img src={img_icon_3} alt="icon" />
               <h5>{t("sustainability.policy_commitment_t_3")}</h5>
@@ -60,7 +60,7 @@ const PolicyCommitment = () => {
             <div
               className="d-flex align-items-start box-competencies"
               data-aos="zoom-in"
-              data-aos-duration="3000"
+              data-aos-duration="1000"
             >
               <img src={img_icon_4} alt="icon" />
               <h5>{t("sustainability.policy_commitment_t_4")}</h5>
@@ -71,7 +71,7 @@ const PolicyCommitment = () => {
             <div
               className="d-flex align-items-start box-competencies"
               data-aos="zoom-in"
-              data-aos-duration="3000"
+              data-aos-duration="1000"
             >
               <img src={img_icon_5} alt="icon" />
               <h5>{t("sustainability.policy_commitment_t_5")}</h5>
@@ -82,7 +82,7 @@ const PolicyCommitment = () => {
             <div
               className="d-flex align-items-start box-competencies"
               data-aos="zoom-in"
-              data-aos-duration="3000"
+              data-aos-duration="1000"
             >
               <img src={img_icon_6} alt="icon" />
               <h5>{t("sustainability.policy_commitment_t_6")}</h5>
