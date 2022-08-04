@@ -74,7 +74,7 @@ const QuarterlyFinancial = () => {
 
   // Net Income
   const data3 = [
-    ["Q", "2020", "2021", "change"],
+    ["Q", "2020", "2021", "change % "],
     ["Q1", 31, 57, 5],
     ["Q2", 39, 49, 16],
     ["Q3", 36, 48, 15],
@@ -158,6 +158,7 @@ const QuarterlyFinancial = () => {
           data={data3}
           options={optionsBar3}
         />
+        <h6 className="sarr-title">Percentage %</h6>
       </div>
     </div>
   );

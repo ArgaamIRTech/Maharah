@@ -26,12 +26,27 @@
   top: 50%;
   font-size: 22px;
   transform: rotate(270deg);
-  color: #212529;
+  color: #242e40c4;
+}
+
+.quarterly-financial .sarr-title {
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  top: 50%;
+  font-size: 22px;
+  transform: rotate(270deg);
+  color: #242e40c4;
 }
 
 @media (max-width: 576px) {
   .quarterly-financial .sar-title {
     left: -55px;
-    font-size: 18px;
+    font-size: 17px;
+  }
+
+  .quarterly-financial .sarr-title {
+    right: -35px;
+    font-size: 17px;
   }
 }
