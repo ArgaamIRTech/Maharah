@@ -4,15 +4,16 @@
   margin-bottom: 85px;
 }
 .quarterly-financial .cust-box-shad {
-  box-shadow: 0 2px 5px 1px #ada8a8;
+  box-shadow: 0 2px 5px 1px #ada8a869;
   margin-bottom: 20px;
   border-radius: 20px;
-  padding: 50px 0;
+  padding: 35px 0;
 }
 .quarterly-financial h4 {
   color: #a98445;
   margin: 0 65px;
   font-weight: 600;
+  margin-bottom: 50px;
 }
 
 .quarterly-financial .cust-box-shad {
