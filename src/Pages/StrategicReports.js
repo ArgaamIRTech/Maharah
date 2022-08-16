@@ -6,6 +6,7 @@ import { useTranslation } from "react-i18next";
 import pdfImg from "../Assets/footer-pdf.png";
 // Import Pdf
 import StrategicReportsPdf from "../Assets/pdf/En/StrategicReports.pdf";
+import StrategicReportsAr from "../Assets/pdf/Ar/StrategicReportsAr.pdf";
 // Import Components
 import Vision from "../Components/StrategicReportsComponents/Vision/Vision";
 import Path from "../Components/StrategicReportsComponents/Path/Path";
@@ -76,14 +77,26 @@ const StrategicReports = () => {
           <div className="d-flex align-items-center">
             <img src={pdfImg} alt="pdf Img" />
             <div className="edit-lh">
-              <Link
-                className="h2"
-                to={StrategicReportsPdf}
-                target="_blank"
-                download
-              >
-                {t("footer.section_1")}
-              </Link>
+              {i18n.language === "en" || i18n.language === "en-US" ? (
+                <Link
+                  className="h2"
+                  to={StrategicReportsPdf}
+                  target="_blank"
+                  download
+                >
+                  {t("footer.section_1")}
+                </Link>
+              ) : (
+                <Link
+                  className="h2"
+                  to={StrategicReportsAr}
+                  target="_blank"
+                  download
+                >
+                  {t("footer.section_1")}
+                </Link>
+              )}
+
               <p>{t("footer.dic_1")}</p>
             </div>
           </div>

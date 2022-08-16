@@ -9,6 +9,7 @@ import PolicyCommitment from "../Components/SustainabilitySocialComponent/Policy
 import pdfImg from "../Assets/footer-pdf.png";
 // Import Pdf
 import SustainabilitySocialPdf from "../Assets/pdf/En/SustainabilitySocialImpact.pdf";
+import SustainabilitySocialAr from "../Assets/pdf/Ar/SustainabilitySocialAr.pdf";
 
 const SustainabilitySocial = () => {
   // Import Use Translation
@@ -61,14 +62,26 @@ const SustainabilitySocial = () => {
           <div className="d-flex align-items-center">
             <img src={pdfImg} alt="pdf Img" />
             <div className="edit-lh">
-              <Link
-                className="h2"
-                to={SustainabilitySocialPdf}
-                target="_blank"
-                download
-              >
-                {t("footer.section_1")}
-              </Link>
+              {i18n.language === "en" || i18n.language === "en-US" ? (
+                <Link
+                  className="h2"
+                  to={SustainabilitySocialPdf}
+                  target="_blank"
+                  download
+                >
+                  {t("footer.section_1")}
+                </Link>
+              ) : (
+                <Link
+                  className="h2"
+                  to={SustainabilitySocialAr}
+                  target="_blank"
+                  download
+                >
+                  {t("footer.section_1")}
+                </Link>
+              )}
+
               <p>{t("footer.dic_1")}</p>
             </div>
           </div>

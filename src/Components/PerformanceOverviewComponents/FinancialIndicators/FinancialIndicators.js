@@ -13,8 +13,8 @@ import icon_2 from "../../../Assets/performance/Corporate_Sector.png";
 // Data
 export const data = [
   ["", ""],
-  ["Individuals Sector", 72],
-  ["Corporate Sector ", 28],
+  ["Individuals Sector", 28],
+  ["Corporate Sector ", 72],
 ];
 
 export const options = {
@@ -217,7 +217,7 @@ const FinancialIndicators = () => {
               </div>
               <div>
                 <div className="h3">
-                  <CountUp start={0} end={72} suffix={"%"} duration={1}>
+                  <CountUp start={0} end={28} suffix={"%"} duration={1}>
                     {({ countUpRef, start }) => (
                       <ReactVisibilitySensor onChange={start}>
                         <span ref={countUpRef}></span>
@@ -234,7 +234,7 @@ const FinancialIndicators = () => {
               </div>
               <div>
                 <div className="h4">
-                  <CountUp start={0} end={28} suffix={"%"} duration={1}>
+                  <CountUp start={0} end={72} suffix={"%"} duration={1}>
                     {({ countUpRef, start }) => (
                       <ReactVisibilitySensor onChange={start}>
                         <span ref={countUpRef}></span>

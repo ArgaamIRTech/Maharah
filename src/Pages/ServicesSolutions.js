@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import pdfImg from "../Assets/footer-pdf.png";
 // Import Pdf
 import servicesSolutionsPdf from "../Assets/pdf/En/ServicesSolutions.pdf";
+import ServicesSolutionsAr from "../Assets/pdf/Ar/ServicesSolutionsAr.pdf";
 
 // Import use Translation
 import { useTranslation } from "react-i18next";
@@ -70,14 +71,26 @@ const ServicesSolutions = () => {
             <div className="d-flex align-items-center">
               <img src={pdfImg} alt="pdf Img" />
               <div className="edit-lh">
-                <Link
-                  className="h2"
-                  to={servicesSolutionsPdf}
-                  target="_blank"
-                  download
-                >
-                  {t("footer.section_1")}
-                </Link>
+                {i18n.language === "en" || i18n.language === "en-US" ? (
+                  <Link
+                    className="h2"
+                    to={servicesSolutionsPdf}
+                    target="_blank"
+                    download
+                  >
+                    {t("footer.section_1")}
+                  </Link>
+                ) : (
+                  <Link
+                    className="h2"
+                    to={ServicesSolutionsAr}
+                    target="_blank"
+                    download
+                  >
+                    {t("footer.section_1")}
+                  </Link>
+                )}
+
                 <p>{t("footer.dic_1")}</p>
               </div>
             </div>

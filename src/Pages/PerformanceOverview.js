@@ -9,6 +9,7 @@ import OperationalPerformance from "../Components/PerformanceOverviewComponents/
 import pdfImg from "../Assets/footer-pdf.png";
 // Import Pdf
 import performanceOverview from "../Assets/pdf/En/PerformanceOverview.pdf";
+import PerformanceOverviewAr from "../Assets/pdf/Ar/PerformanceOverviewAr.pdf";
 
 const PerformanceOverview = () => {
   // Import Use Translation
@@ -61,14 +62,25 @@ const PerformanceOverview = () => {
           <div className="d-flex align-items-center">
             <img src={pdfImg} alt="pdf Img" />
             <div className="edit-lh">
-              <Link
-                className="h2"
-                to={performanceOverview}
-                target="_blank"
-                download
-              >
-                {t("footer.section_1")}
-              </Link>
+              {i18n.language === "en" || i18n.language === "en-US" ? (
+                <Link
+                  className="h2"
+                  to={performanceOverview}
+                  target="_blank"
+                  download
+                >
+                  {t("footer.section_1")}
+                </Link>
+              ) : (
+                <Link
+                  className="h2"
+                  to={PerformanceOverviewAr}
+                  target="_blank"
+                  download
+                >
+                  {t("footer.section_1")}
+                </Link>
+              )}
               <p>{t("footer.dic_1")}</p>
             </div>
           </div>

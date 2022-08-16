@@ -10,6 +10,7 @@ import iconUser from "../Assets/Icon awesome-user-tie.png";
 import pdfImg from "../Assets/footer-pdf.png";
 // Import Pdf
 import managementLettersPdf from "../Assets/pdf/En/ManagementLetters.pdf";
+import ManagementLettersAr from "../Assets/pdf/Ar/ManagementLettersAr.pdf";
 
 const ManagementLetters = () => {
   // Import Use Translation
@@ -152,14 +153,26 @@ const ManagementLetters = () => {
           <div className="d-flex align-items-center">
             <img src={pdfImg} alt="pdf Img" />
             <div className="edit-lh">
-              <Link
-                className="h2"
-                to={managementLettersPdf}
-                target="_blank"
-                download
-              >
-                {t("footer.section_1")}
-              </Link>
+              {i18n.language === "en" || i18n.language === "en-US" ? (
+                <Link
+                  className="h2"
+                  to={managementLettersPdf}
+                  target="_blank"
+                  download
+                >
+                  {t("footer.section_1")}
+                </Link>
+              ) : (
+                <Link
+                  className="h2"
+                  to={ManagementLettersAr}
+                  target="_blank"
+                  download
+                >
+                  {t("footer.section_1")}
+                </Link>
+              )}
+
               <p>{t("footer.dic_1")}</p>
             </div>
           </div>

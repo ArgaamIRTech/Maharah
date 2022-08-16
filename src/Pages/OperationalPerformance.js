@@ -12,6 +12,7 @@ import AccessCustomers from "../Components/OperationalPerformanceComponent/Acces
 import pdfImg from "../Assets/footer-pdf.png";
 // Import Pdf
 import OperationalPerformancePdf from "../Assets/pdf/En/OperationalPerformance.pdf";
+import OperationalPerformanceAr from "../Assets/pdf/Ar/OperationalPerformanceAr.pdf";
 import TurnoverRate from "../Components/OperationalPerformanceComponent/NationalizationPercentage/TurnoverRate";
 
 const OperationalPerformance = () => {
@@ -68,14 +69,26 @@ const OperationalPerformance = () => {
             <div className="d-flex align-items-center">
               <img src={pdfImg} alt="pdf Img" />
               <div className="edit-lh">
-                <Link
-                  className="h2"
-                  to={OperationalPerformancePdf}
-                  target="_blank"
-                  download
-                >
-                  {t("footer.section_1")}
-                </Link>
+                {i18n.language === "en" || i18n.language === "en-US" ? (
+                  <Link
+                    className="h2"
+                    to={OperationalPerformancePdf}
+                    target="_blank"
+                    download
+                  >
+                    {t("footer.section_1")}
+                  </Link>
+                ) : (
+                  <Link
+                    className="h2"
+                    to={OperationalPerformanceAr}
+                    target="_blank"
+                    download
+                  >
+                    {t("footer.section_1")}
+                  </Link>
+                )}
+
                 <p>{t("footer.dic_1")}</p>
               </div>
             </div>

@@ -25,7 +25,8 @@ import SustainabilitySocialArPdf from "../Assets/pdf/Ar/SustainabilitySocialAr.p
 // Pdf Footer Img
 import pdfImg from "../Assets/footer-pdf.png";
 // All PDF
-import FullPdf from "../Assets/pdf/full/En.pdf";
+import FullEnPdf from "../Assets/pdf/full/En.pdf";
+import FullArPdf from "../Assets/pdf/full/Ar.pdf";
 
 const DownloadCenter = () => {
   // Import Use Translation
@@ -547,9 +548,16 @@ const DownloadCenter = () => {
           <div className="d-flex align-items-center">
             <img src={pdfImg} alt="pdf Img" />
             <div className="edit-lh">
-              <Link className="h2" to={FullPdf} target="_blank" download>
-                {t("footer.section_1")}
-              </Link>
+              {i18n.language === "en" || i18n.language === "en-US" ? (
+                <Link className="h2" to={FullEnPdf} target="_blank" download>
+                  {t("footer.section_1")}
+                </Link>
+              ) : (
+                <Link className="h2" to={FullArPdf} target="_blank" download>
+                  {t("footer.section_1")}
+                </Link>
+              )}
+
               <p>{t("footer.section_4")}</p>
             </div>
           </div>
