@@ -72,27 +72,27 @@ const QuarterlyFinancial = () => {
   const netIncomeData = [
     {
       date: "Q1",
-      2021: 31,
-      2020: 57,
-      "changes %": 5,
+      2021: 31.32,
+      2020: 57.25,
+      "changes %": -45,
     },
     {
       date: "Q2",
-      2021: 39,
-      2020: 49,
-      "changes %": 16,
+      2021: 38.71,
+      2020: 49.42,
+      "changes %": -22,
     },
     {
       date: "Q3",
-      2021: 36,
-      2020: 48,
-      "changes %": 15,
+      2021: 35.63,
+      2020: 48.11,
+      "changes %": -26,
     },
     {
       date: "Q4",
-      2021: 39,
-      2020: 23,
-      "changes %": 80,
+      2021: 39.27,
+      2020: 22.53,
+      "changes %": 74,
     },
   ];
 
@@ -244,7 +244,7 @@ const QuarterlyFinancial = () => {
               yAxisId={2}
               orientation="right"
               domain={[0, 5]}
-              tickCount={6}
+              tickCount={7}
               // label={{ value: "Percentage %", angle: -90, dx: 20 }}
               tickFormatter={(tick) => `${tick}%`}
               axisLine={false}
